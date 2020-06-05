@@ -1,0 +1,62 @@
+
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+
+{% block content %}
+{% if user.is_authenticated %}
+
+<form action="" method="post" autocomplete="off">
+    {% csrf_token %}
+    <div class="row">
+        <div class="col-md-3">
+            {{form.date|as_crispy_field}}
+        </div>
+        <div class="col-md-3">
+            {{form.Serial_White_Guava|as_crispy_field}} 
+        </div>
+        <div class="col-md-3">
+            {{form.Serial_White_Premium|as_crispy_field}}
+        </div>
+        <div class="col-md-3">
+            {{form.Soft_Flower_Body_Wash|as_crispy_field}} 
+        </div>
+        <div class="col-md-3">
+            {{form.Soft_Flower_Fresh|as_crispy_field}}
+        </div>
+        <div class="col-md-4">
+            {{form.Soft_Flower_Orange_Lightening|as_crispy_field}} 
+        </div>
+        <div class="col-md-3">
+            {{form.Soft_Flower_Carot_Lightening|as_crispy_field}} 
+        </div>
+        <div class="col-md-3">
+            {{form.Soft_Flower_Papaya_Extract|as_crispy_field}}
+        </div>
+        <div class="col-md-4">
+            {{form.Soft_Flower_Extra_Lightening|as_crispy_field}} 
+        </div>
+        <div class="col-md-3">
+            {{form.Serial_White_Papaya_4in1|as_crispy_field}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <button type="submit" class="btn btn-success btn-block btn-lg"><i class="fas fa-database"></i>
+                Submit</button>
+        </div>
+        <div class="col-md-4">
+            <a href="{% url 'soapprod_list' %}" class="btn btn-secondary btn-block btn-lg">
+                <i class="fas fa-stream"></i> Back to list
+            </a>
+        </div>
+    </div>
+    
+</form>
+
+
+    {{a}},{{b}},{{c}},{{d}},{{e}},{{f}},{{g}},{{h}},{{i}},{{iii}}
+{% else %}
+<h2>Register or Login if you'd like to</h2>
+{% endif %}
+{% endblock content %}

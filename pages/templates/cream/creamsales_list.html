@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+<table class="table table-borderless">
+    <thead class="border-bottom font-weight-bold">
+        <td>
+            <a href="{% url 'cream/creamsales_insert' %}" class="btn btn-outline-success">
+                <i class="fas fa-plus"></i> Add New
+            </a>
+        </td>
+        <tr>
+            <td>S/N</td>
+            <td>date</td>
+            <td>S_White_ExLM</td>
+            <td>S_White_Gold_SWM</td>
+            <td>Soft_Flower_LL</td>
+            <td>Soft_Flower_FC</td>
+           <td> Marketer</td>>
+            
+           
+        </tr>
+    </thead>
+    <tbody>
+        
+        
+        {% for creamsales in creamsales_list %}
+            <tr>
+                <td>{{creamsales.id}}</td>
+                <td>{{creamsales.date}}</td>
+                <td>{{creamsales.Serial_White_ExLM}}</td>
+                <td>{{creamsales.Serial_White_Gold_SWM}}</td>
+                <td>{{creamsales.Soft_Flower_LL}}</td>
+                <td>{{creamsales.Soft_Flower_FC}}</td>
+                <td>{{creamsales.cream_marketer_status}}</td>
+               
+                <td>  <a href="{% url 'cream/creamsales_update' creamsales.id %}" class="btn text-secondary px-0">
+                        <i class="far fa-edit fa-lg"></i>
+                    </a></td>
+                <td>   <form action="{% url 'cream/creamsales_delete' creamsales.id %}" method="post" class="d-inline">
+                        {% csrf_token %}
+                        <button type="submit" class="btn">
+                            <i class="far fa-trash-alt fa-lg text-danger float-right"></i>
+                        </button>
+                    </form></td>
+                </td>
+            </tr>
+        {% endfor %}        
+    </tbody>
+</table>
+
+{% endblock content %}

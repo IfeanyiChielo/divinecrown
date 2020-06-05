@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+<table class="table table-borderless">
+    <thead class="border-bottom font-weight-bold">
+        <td>
+            <a href="{% url 'soapprod_insert' %}" class="btn btn-outline-success">
+                <i class="fas fa-plus"></i> Add New
+            </a>
+        </td>
+        <tr>
+            <td>S/N</td>
+            <td>date</td>
+            <td>SWG</td>
+            <td>SWP</td>
+            <td>SFBW</td>
+            <td>sFF</td>
+            <td>SFOL</td>
+            <td>SFCL</td>
+            <td>SFPE</td>
+            <td>SFEL</td>
+            <td>SWP4in1</td> 
+           
+        </tr>
+    </thead>
+    <tbody>
+        {% for soapprod in soapprod_list %}
+            <tr>
+                <td>{{soapprod.id}}</td>
+                <td>{{soapprod.date}}</td>
+                <td>{{soapprod.Serial_White_Guava}}</td>
+                <td>{{soapprod.Serial_White_Premium}}</td>
+                <td>{{soapprod.Soft_Flower_Body_Wash}}</td>
+                <td>{{soapprod.Soft_Flower_Fresh}}</td>
+                <td>{{soapprod.Soft_Flower_Orange_Lightening}}</td>
+                <td>{{soapprod.Soft_Flower_Carot_Lightening}}</td>
+                <td>{{soapprod.Soft_Flower_Papaya_Extract}}</td>
+                <td>{{soapprod.Soft_Flower_Extra_Lightening}}</td>
+                <td>{{soapprod.Serial_White_Papaya_4in1}}</td>
+                <td>  <a href="{% url 'soapprod_update' soapprod.id %}" class="btn text-secondary px-0">
+                        <i class="far fa-edit fa-lg"></i>
+                    </a></td>
+                <td>   <form action="{% url 'soapprod_delete' soapprod.id %}" method="post" class="d-inline">
+                        {% csrf_token %}
+                        <button type="submit" class="btn">
+                            <i class="far fa-trash-alt fa-lg text-danger float-right"></i>
+                        </button>
+                    </form></td>
+                </td>
+            </tr>
+        {% endfor %}        
+    </tbody>
+</table>
+
+{% endblock content %}

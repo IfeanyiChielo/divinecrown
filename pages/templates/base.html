@@ -1,0 +1,120 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a href="#" class="navbar-brand">Brand</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="nav-item">
+                    <a href="{% url 'index' %}" class="nav-link">Home</a>
+                    <li class="nav-item">
+                      <a class="nav-link" href="{% url 'login' %}">l</a</li>
+                      {# Some logic on what to display for last item#}
+                    {% if user.is_authenticated %}
+                      <li><a href="{% url 'logout' %}">Logout</a></li>
+                    {% else %}
+                      <li><a class="navbar-link" href="{% url 'login' %}">login</a></li>
+                    {% endif %}
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Production</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="{% url 'soapprod_insert' %}">Soap Production</a>
+                        <a href="creamprod_insert" class="dropdown-item">Cream Production</a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sales</a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                      <a class="dropdown-item" href="{% url 'namev' %}">Soap Sales</a>>
+                      <a href="#" class="dropdown-item">Cream Sales</a>
+                    </div>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Admin</a>
+                  <div class="dropdown-menu dropdown-menu-right">
+                      <a href="#" class="dropdown-item">Reports</a>
+                      <a href="#" class="dropdown-item">Settings</a>
+                      <div class="dropdown-divider"></div>
+                      <a href="#"class="dropdown-item">Logout</a>
+                  </div>
+              </li>
+              <li class="nav-item dropdown">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Profile</a>
+              </li>
+              <li class="nav-item",float: left;>  
+                <a href="#" class="nav-link">Profile</a>
+            </li>
+                </div>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Divine Crown</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="col-md-10 offset-md-1 mt-5">
+            <div class="jumbotron">
+                <h1 class="display-4">Divine Crown</h1>
+                <p class="lead font-italic">Naturally ahead of others in the world of cosmetics</p>
+                <hr class="my-4">
+                {% block content %}
+                {% endblock content %}
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        <html>
+            <head>
+            <style>
+            body {
+              background-color: rgb(103, 223, 123);
+            }
+            
+            h1 {
+              color: rgb(85, 136, 95);
+              text-align: center;
+            }
+            
+            p {
+              font-family: verdana;
+              font-size: 20px;
+            }
+            </style>
+            </head>
+            
+            <body>
+            
+            <!-- <h1>My First </h1> -->
+            <p>Powered by Anyijesu infotech</p>
+            
+            </body>
+            </html>
+            
+</body>
+
+</html>

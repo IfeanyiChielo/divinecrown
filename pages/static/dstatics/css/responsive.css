@@ -1,0 +1,723 @@
+/* Lagre desktop :1500px. */
+@media (max-width: 1500px) {
+.header-area .main-menu ul li { padding: 35px 8px; }
+.slider-area .slider-2 h1,
+.slider-area.slider-area-2 .slider-2 h1 {font-size: 60px;  }
+.who-we-are-area .skill .progress {margin: 60px 0;}
+.header-two-area .main-menu2-area ul li {padding: 35px 5px;}
+.header-two-area .search-area {  margin-top: 0;}
+.home2-about-us .about-content {  padding: 30px 50px 0 0;}
+.home2-about-us,
+.home2-about-us .about-us-image img {min-height: 460px;}
+.blog-area2 .single-blog .blog-details h3 a,
+.what-we-do-start-here .single-feature h3 a,
+.blog-area .single-blog .blog-details h3 a {font-size: 16px;}
+.blog-area2 .single-blog .blog-details .blog-info ul li,
+.blog-area .single-blog .blog-details .blog-info ul li {margin-right: 8px;}
+.blog-area2 .single-blog .blog-details .blog-info ul li i,
+.blog-area .single-blog .blog-details .blog-info ul li i {margin-right: 0;}
+.main-servires-area .main-services-content {padding: 30px 0 0 30px;}
+.main-servires-area {min-height: 360px;}
+.media.single-post .pull-left a img { width: 70px;}
+.header-area .header-right-part ul li .search-area input:hover{	width: 110px;}
+/* spacing responsive */
+.who-we-are-area,
+.why-choose-us-area,
+.portfolio-area,
+.counter-up-area,
+.team-area,
+.testimonial,
+.blog-area,
+.service-area,
+.home2-testimonial-area,
+.blog-area2,
+.page-header-area,
+.about-page-area,
+.our-skill-area,
+.what-we-do-start-here,
+.price-table-area,
+.single-services-area,
+.shop-page-area,
+.portfolio-one-area,
+.portfolio-details-area,
+.error-page-area,
+.contact-page-area,
+.team-member-area,
+.cart-page-area,
+.checkout-page-area,
+.account-page-area{padding: 60px 0;  }
+
+
+
+}
+/* Normal desktop :1169px. */
+@media (max-width: 1169px) {
+
+.header-area .main-menu ul li { padding: 35px 6px; }
+.header-area .main-menu ul li a{font-size: 13px;}
+.slider-area .slider-2 h1,
+.slider-area.slider-area-2 .slider-2 h1 {font-size: 60px;  }
+.who-we-are-area .skill .progress {margin: 60px 0;}
+.header-two-area .main-menu2-area ul li {padding: 35px 5px;}
+.header-two-area .search-area {  margin-top: 0;}
+.home2-about-us .about-content {  padding: 30px 50px 0 0;}
+.home2-about-us,
+.home2-about-us .about-us-image img {min-height: 480px;}
+.blog-area2 .single-blog .blog-details h3 a,
+.what-we-do-start-here .single-feature h3 a,
+.blog-area .single-blog .blog-details h3 a {font-size: 16px;}
+.blog-area2 .single-blog .blog-details .blog-info ul li,
+.blog-area .single-blog .blog-details .blog-info ul li {margin-right: 8px;}
+.blog-area2 .single-blog .blog-details .blog-info ul li i,
+.blog-area .single-blog .blog-details .blog-info ul li i {margin-right: 0;}
+.main-servires-area .main-services-content {padding: 30px 0 0 30px;}
+.main-servires-area {min-height: 360px;}
+.media.single-post .pull-left a img { width: 70px;}
+.header-area .header-right-part ul li .search-area input:hover,
+.header-two-area .search-area input{	width: 110px;}
+/* spacing responsive */
+.who-we-are-area,
+.why-choose-us-area,
+.portfolio-area,
+.counter-up-area,
+.team-area,
+.testimonial,
+.blog-area,
+.service-area,
+.home2-testimonial-area,
+.blog-area2,
+.page-header-area,
+.about-page-area,
+.our-skill-area,
+.what-we-do-start-here,
+.price-table-area,
+.single-services-area,
+.shop-page-area,
+.portfolio-one-area,
+.portfolio-details-area,
+.error-page-area,
+.contact-page-area,
+.team-member-area,
+.cart-page-area,
+.checkout-page-area,
+.account-page-area{padding: 60px 0;  }
+
+
+
+
+}
+
+ 
+/* Tablet desktop :991px. */
+@media (max-width: 991px) {
+
+.header-area .main-menu ul li { padding: 35px 10px; }
+.slider-area .slider-2 h1,
+.slider-area.slider-area-2 .slider-2 h1 {font-size: 44px;  }
+.slider-area .slider-2 div.slider-botton,
+.slider-area.slider-area-2 .slider-2 div.slider-botton {margin-top: 25px;}
+.slider-area .slider-2 div.slider-botton ul li a,
+.slider-area .slider-2 div.slider-botton ul li.acitve a,
+.slider-area.slider-area-2 .slider-2 div.slider-botton ul li.acitve a,
+.slider-area.slider-area-2 .slider-2 div.slider-botton ul li a {padding: 9px 25px;}
+.slider-area .slider-2 div.slider-botton { margin-top: 25px;}
+.who-we-are-area .skill .progress {margin: 60px 0;}
+.header-two-area .main-menu2-area ul li {padding: 15px 11px;}
+.header-two-area .search-area {  margin-top: 0;}
+.home2-about-us .about-content {  padding: 30px;}
+.home2-about-us,
+.home2-about-us .about-us-image img {min-height: 480px;}
+.blog-area2 .single-blog .blog-details h3 a,
+.what-we-do-start-here .single-feature h3 a,
+.blog-area .single-blog .blog-details h3 a {font-size: 16px;}
+.blog-area2 .single-blog .blog-details .blog-info ul li,
+.blog-area .single-blog .blog-details .blog-info ul li {margin-right: 8px;}
+.blog-area2 .single-blog .blog-details .blog-info ul li i,
+.blog-area .single-blog .blog-details .blog-info ul li i {margin-right: 0;}
+.main-servires-area .main-services-content {padding:30px;}
+.main-servires-area {min-height: 360px;}
+.media.single-post .pull-left a img { width: 70px;}
+.header-area .header-right-part ul li .search-area input:hover,
+.header-two-area .search-area input{	width: 110px;}
+.header-two-area .logo-area,
+.header-area .logo-area {padding: 10px 0 0;  text-align: center;}
+.header-two-area .search-area,
+.header-area .header-right-part{display: none;}
+.section-area, .section-area2 {  padding: 0 50px;}
+.counter-up-area .ab-count .about-counter-list {margin: 20px 0;}
+.testimonial .testimonial-area .single-testimonial {  padding: 0;}
+.padding-768 {padding-top: 60px;}
+.padding1-768 {padding-top: 30px;}
+.slider-area.slider-area-2 .slider-2 div.title2 {font-size: 14px;letter-spacing: 5px;}
+.service-area .single-service { margin:35px 0;}
+.service-area .single-service:last-child {  margin: 35px 0 0;}
+.service-area .section-area2 p {  margin-bottom: 0;}
+.widget {  margin: 0 0 30px;}
+.our-skill-area .single-skill {  margin: 30px 0;}
+.what-we-do-start-here .single-feature,
+.price-table-area .single-price-table {margin: 15px 0;}
+.shop-page-area .tobar-area .showing-result ul li {display: block;height: 35px;margin-right: 0;text-align: center;}
+.shop-page-area .tab-content .tab-pane .single-product-area .product-image .overley .product-details .product-title h3 a {
+  font-size: 16px;font-weight: 500;}
+.padding-nai{padding: 0;margin: 0}
+.related-product-area .single-product-store::after {left: 36%;top: -50px;width: 40%;}
+.single-teams .padding-top {padding: 35px 0;}
+.portfolio-area .single-portfolio { margin: 0 0 40px;}
+
+/* spacing responsive */
+.who-we-are-area,
+.why-choose-us-area,
+.portfolio-area,
+.counter-up-area,
+.team-area,
+.testimonial,
+.blog-area,
+.service-area,
+.home2-testimonial-area,
+.blog-area2,
+.page-header-area,
+.about-page-area,
+.our-skill-area,
+.what-we-do-start-here,
+.price-table-area,
+.single-services-area,
+.shop-page-area,
+.portfolio-one-area,
+.portfolio-details-area,
+.error-page-area,
+.contact-page-area,
+.team-member-area,
+.cart-page-area,
+.checkout-page-area,
+.account-page-area{padding: 60px 0;  }
+
+.cookcodesmenu_menu{
+  display: none !important;
+}
+.header-area .header-right{display: none;}
+.header-area .main-menu ul{
+  text-align: center;
+}
+}
+
+/* Large mobile :767px. */
+@media (max-width: 768px) {
+  .header-area{display: none;}
+  .cookcodesmenu_menu{
+    display: block !important;
+  }
+.header-top-left,
+.header-top-right {
+    text-align: center;
+    padding: 5px 0;
+}
+.header-area,
+.header-two-area{display: none;}
+.mobile-menu-area{display: block;}
+.header-area .main-menu ul li { padding: 35px 8px; }
+.slider-area .slider-2 h1,
+.slider-area.slider-area-2 .slider-2 h1 {font-size: 28px;  }
+.slider-area .slider-2 div.slider-botton,
+.slider-area.slider-area-2 .slider-2 div.slider-botton {margin-top: 25px;}
+.slider-area .slider-2 div.slider-botton ul li a,
+.slider-area .slider-2 div.slider-botton ul li.acitve a,
+.slider-area.slider-area-2 .slider-2 div.slider-botton ul li.acitve a,
+.slider-area.slider-area-2 .slider-2 div.slider-botton ul li a {padding: 9px 25px;}
+.slider-area .slider-2 div.title2 {padding: 0 0%;font-size: 16px;}
+.why-choose-us-area {  background:#f1f1f1;}
+.who-we-are-area .skill .progress {margin: 60px 0;}
+.header-two-area .main-menu2-area ul li {padding: 15px 11px;}
+.header-two-area .search-area {  margin-top: 0;}
+.home2-about-us .about-content {  padding: 30px;}
+.home2-about-us,
+.home2-about-us .about-us-image img {min-height: 480px;}
+.blog-area2 .single-blog .blog-details h3 a,
+.what-we-do-start-here .single-feature h3 a,
+.blog-area .single-blog .blog-details h3 a {font-size: 16px;}
+.blog-area2 .single-blog .blog-details .blog-info ul li,
+.blog-area .single-blog .blog-details .blog-info ul li {margin-right:10px;}
+.blog-area2 .single-blog .blog-details .blog-info ul li i,
+.blog-area .single-blog .blog-details .blog-info ul li i {margin-right: 5px;}
+.main-servires-area .main-services-content {padding:30px;}
+.main-servires-area {min-height: 360px;}
+.media.single-post .pull-left a img { width: 70px;}
+.header-area .header-right-part ul li .search-area input:hover,
+.header-two-area .search-area input{	width: 110px;}
+.header-two-area .logo-area,
+.header-area .logo-area {padding: 10px 0;  text-align: center;}
+.header-two-area .search-area,
+.header-area .header-right-part{display: none;}
+.section-area, .section-area2 {  padding: 0 50px;}
+.counter-up-area .ab-count .about-counter-list {margin: 20px 0;}
+.testimonial .testimonial-area .single-testimonial {  padding: 0;}
+.padding-768 {padding-top:0px;}
+.padding-768 .single-blog{margin-bottom: 0 !important}
+.padding1-768 {padding-top: 30px;}
+.slider-area.slider-area-2 .slider-2 div.title2 {font-size: 14px;letter-spacing: 5px;}
+.service-area .single-service { margin:35px 0;}
+.service-area .single-service:last-child {  margin: 35px 0 0;}
+.service-area .section-area2 p {  margin-bottom: 0;}
+.widget {  margin: 0 0 30px;}
+.our-skill-area .single-skill {  margin: 30px 0;}
+.what-we-do-start-here .single-feature,
+.price-table-area .single-price-table {margin: 15px 0;}
+.shop-page-area .tobar-area .showing-result ul li {display: block;height: 35px;margin-right: 0;text-align: center;}
+.shop-page-area .tab-content .tab-pane .single-product-area .product-image .overley .product-details .product-title h3 a {
+  font-size: 16px;font-weight: 500;}
+.padding-nai{padding: 0;margin: 0}
+.related-product-area .single-product-store::after {left: 36%;top: -50px;width: 40%;}
+.single-teams .padding-top {padding: 35px 0;}
+.portfolio-area .single-portfolio,
+.single-team { margin: 0 0 40px;}
+.testimonial .testimonial-area .single-testimonial .testimonial-top .image,
+.testimonial .testimonial-area .single-testimonial .testimonial-top .details {display: block;margin: 20px auto;text-align: center;}
+.testimonial .testimonial-area .single-testimonial .testimonial-top .image::after{display: none;}
+.testimonial .testimonial-area .single-testimonial .testimonial-top .details h3 {font-size: 14px;margin-bottom: 0;}
+.testimonial .testimonial-area .single-testimonial .testimonial-top .details p {  font-size: 12px;}
+.single-blog {margin-bottom: 60px;text-align: center;}
+.blog-area .single-blog .blog-details .blog-info ul,
+.about-page-area,
+.main-servires-area .main-services-content,
+.shop-page-area .tobar-area .view-area ul.nav-tabs,
+.product-details,
+.product-description ul.nav.nav-tabs,
+.product-description .tab-content,
+.team-member-area .total-teams .single-teams .media .media-body,
+.portfolio-details-area .project-description h3,
+.project-description > p,
+.portfolio-details-area .related-project h3::after{text-align: center;}
+.shop-page-area .tobar-area .view-area ul.nav-tabs li {display: inline-block;float: inherit;}
+.blog-area .single-blog .blog-details p,
+.section-area p {  margin-bottom: 24px;}
+.why-choose-us-area .single-choose .icon {margin-bottom: 30px;}
+.shop-page-area .product-list-view-area .list-single-product {  margin: 30px;  text-align: center;}
+.about-page-area .about-us-content .our-features-list .single-feature > a {margin: auto auto 15px;text-align: center;}
+.single-feature {  margin: 0 100px;}
+.main-servires-area .main-services-content h2 {  font-size: 24px;}
+.main-single-service {  margin: 50px 0 0;text-align: center;}
+.benefit-business-planning { margin: 0 0 30px;}
+.single-services-area .services-content .main-single-service .business-benefit-image img { margin-bottom: 0;}
+.shop-page-area .product-list-view-area .list-single-product .media a,
+.team-member-area .total-teams .single-teams .media a.pull-left {display: block;float: inherit !important;margin-bottom: 30px;
+  margin-right: 0;}
+.related-product-area h3 {margin-left: 20px;}
+.related-product-area .single-product-store .product-content {  margin: 30px 0 0;  text-align: center;}
+.pagination-area { padding-top: 0;}
+.product-details {  margin-top: 30px;}
+.portfolio-image { margin-bottom: 30px;}
+.portfolio-one-area .portfolio-menu ul li {padding: 7px 18px;}
+.padding-zero{padding: 0;margin: 0;}
+.team-member-area .total-teams .single-teams .media .media-body .social-media ul {float: inherit;}
+.padding-top1 .single-team{  padding-top: 0;}
+.portfolio-details-area .portfolio-informations ul li {border-bottom: 1px solid #dddddd;margin-bottom: 10px;padding-bottom: 10px;}
+.padding-top1 .single-team {  padding-top: 0 !important;}
+.team-area.team-area2 .padding-top1{  padding-top: 0 !important;}
+.single-product-area .add-cart {margin: auto;text-align: center; width: 100%;}
+.portfolio-details-area .portfolio-informations .visit-project { width: 100%;}
+.portfolio-details-area .portfolio-informations h3 {margin-bottom: 40px;text-align: center;}
+.main-servires-area .main-services-content h2::after,
+.single-services-area .services-content .main-single-service h3::after,
+.shop-page-area .product-list-view-area .list-single-product .media a::after,
+.shop-page-area .product-list-view-area .list-single-product .media .media-body h4.media-heading::after,
+.single-product-area .product-details h3::after,
+.team-member-area .total-teams .single-teams .media .media-body h4.media-heading a::before,
+.portfolio-details-area .portfolio-informations h3::after,
+.portfolio-details-area .project-description h3::after,
+.portfolio-details-area .related-project h3::after,
+.single-blog-area .comments-area h3::after,
+.contact-page-area .contact-informations h3::after,
+.contact-page-area .contact-form h3::after{left: 0;right: 0;margin: auto;text-align: center;}
+.portfolio-details-area .related-project h3,
+.contact-page-area .contact-form h3{text-align: center;}
+.single-portfolio .portfolio-image {  margin-bottom: 0;}
+.blog-area .padding-top1.padding-removed {  padding-top: 0;}
+.blog-area .single-blog .blog-details h3 {  font-size: 18px;}
+.single-comments-box .media-heading {font-size: 14px;}
+.single-comments-box .media-left{display: block;float: inherit !important;margin-bottom: 20px;padding-right: 0 !important;}
+.single-comments-box .media a.pull-left{display: block;float: inherit !important;margin-bottom: 20px;padding-right: 0 !important;}
+.single-blog-area .comments-area .single-comments-box .reply {display: block;float: inherit !important;margin: 20px 0;padding: 7px 0;}
+.single-blog-area .comments-area .single-comments-box.second-comments { margin-left: 0;}
+.contact-informations {  margin-bottom: 30px;  text-align: center;}
+.contact-page-area .contact-informations h3,
+.contact-page-area .contact-form h3 {font-size: 18px;}
+.contact-page-area .contact-form {margin: 0 5px 0 25px; padding: 0;}
+.contact-page-area .contact-form .main-contact-form fieldset .btn-send { width: 100%;}
+.page-header-area h1 {font-size: 30px;margin-bottom: 8px;}
+/* spacing responsive */
+.who-we-are-area,
+.why-choose-us-area,
+.portfolio-area,
+.counter-up-area,
+.team-area,
+.testimonial,
+.blog-area,
+.service-area,
+.home2-testimonial-area,
+.blog-area2,
+.page-header-area,
+.about-page-area,
+.our-skill-area,
+.what-we-do-start-here,
+.price-table-area,
+.single-services-area,
+.shop-page-area,
+.portfolio-one-area,
+.portfolio-details-area,
+.error-page-area,
+.contact-page-area,
+.team-member-area,
+.cart-page-area,
+.checkout-page-area,
+.account-page-area{padding: 60px 0;  }
+
+ 
+} 
+
+/* Mobile :479px. */
+@media (max-width: 479px) {
+.header-top-left {
+    text-align: center;
+}
+.header-area,
+.header-two-area{display: none;}
+.mobile-menu-area{display: block;}
+.header-area .main-menu ul li { padding: 35px 8px; }
+.slider-area .slider-2 h1,
+.slider-area.slider-area-2 .slider-2 h1 {font-size: 20px;letter-spacing: 0;  }
+.slider-area .slider-2 div.slider-botton {margin-top: 25px;}
+.slider-area .slider-2 div.slider-botton ul li a,
+.slider-area .slider-2 div.slider-botton ul li.acitve a {padding: 5px 15px;}
+.slider-area .slider-2 div.slider-botton { margin-top: 5px;}
+.slider-area .slider-2 div.title2 {padding: 0 0%;font-size: 16px;display: none;}
+.why-choose-us-area {  background:#f1f1f1;}
+.who-we-are-area .skill .progress {margin: 60px 0;}
+.header-two-area .main-menu2-area ul li {padding: 15px 11px;}
+.header-two-area .search-area {  margin-top: 0;}
+.home2-about-us .about-content {  padding: 30px;text-align: center;}
+.home2-about-us,
+.home2-about-us .about-us-image img {min-height: 240px;}
+.blog-area2 .single-blog .blog-details h3 a,
+.what-we-do-start-here .single-feature h3 a,
+.blog-area .single-blog .blog-details h3 a {font-size: 16px;}
+.blog-area2 .single-blog .blog-details .blog-info ul li,
+.blog-area .single-blog .blog-details .blog-info ul li {margin-right:2px;font-size: 12px;}
+.blog-area2 .single-blog .blog-details .blog-info ul li i,
+.blog-area .single-blog .blog-details .blog-info ul li i {margin-right: 5px;}
+.main-servires-area .main-services-content {padding:30px;}
+.main-servires-area {min-height: 360px;}
+.media.single-post .pull-left a img { width: 70px;}
+.header-area .header-right-part ul li .search-area input:hover,
+.header-two-area .search-area input{	width: 110px;}
+.header-two-area .logo-area,
+.header-area .logo-area {padding: 10px 0;  text-align: center;}
+.header-two-area .search-area,
+.header-area .header-right-part{display: none;}
+.section-area, .section-area2 {  padding:0px;}
+.counter-up-area .ab-count .about-counter-list {margin: 20px 0;}
+.testimonial .testimonial-area .single-testimonial {  padding: 0;}
+.padding-768 {padding-top:0px;}
+.padding-768 .single-blog{margin-bottom: 0 !important}
+.padding1-768 {padding-top: 30px;}
+.slider-area.slider-area-2 .slider-2 div.title2 {font-size: 14px;letter-spacing: 5px;}
+.service-area .single-service { margin:35px 0;}
+.service-area .single-service:last-child {  margin: 70px 0 0;}
+.service-area .section-area2 p {  margin-bottom: 0;}
+.widget {  margin: 0 0 30px;}
+.our-skill-area .single-skill {  margin: 30px 0;}
+.what-we-do-start-here .single-feature,
+.price-table-area .single-price-table {margin: 15px 0;}
+.shop-page-area .tobar-area .showing-result ul li {display: block;height: 35px;margin-right: 0;text-align: center;}
+.shop-page-area .tab-content .tab-pane .single-product-area .product-image .overley .product-details .product-title h3 a {
+  font-size: 16px;font-weight: 500;}
+.padding-nai{padding: 0;margin: 0}
+.related-product-area .single-product-store::after {left: 36%;top: -50px;width: 40%;}
+.single-teams .padding-top {padding: 35px 0;}
+.portfolio-area .single-portfolio,
+.single-team { margin: 0 0 40px;}
+.testimonial .testimonial-area .single-testimonial .testimonial-top .image,
+.testimonial .testimonial-area .single-testimonial .testimonial-top .details {display: block;margin: 20px auto;text-align: center;}
+.testimonial .testimonial-area .single-testimonial .testimonial-top .image::after{display: none;}
+.testimonial .testimonial-area .single-testimonial .testimonial-top .details h3 {font-size: 14px;margin-bottom: 0;}
+.testimonial .testimonial-area .single-testimonial .testimonial-top .details p {  font-size: 12px;}
+.single-blog {margin-bottom: 60px;text-align: center;}
+.blog-area .single-blog .blog-details .blog-info ul,
+.about-page-area,
+.main-servires-area .main-services-content,
+.shop-page-area .tobar-area .view-area ul.nav-tabs,
+.product-details,
+.product-description ul.nav.nav-tabs,
+.product-description .tab-content,
+.team-member-area .total-teams .single-teams .media .media-body,
+.portfolio-details-area .project-description h3,
+.project-description > p,
+.portfolio-details-area .related-project h3::after{text-align: center;}
+.shop-page-area .tobar-area .view-area ul.nav-tabs li {display: inline-block;float: inherit;}
+.blog-area .single-blog .blog-details p,
+.section-area p {  margin-bottom: 24px;}
+.why-choose-us-area .single-choose .icon {margin-bottom: 30px;}
+.shop-page-area .product-list-view-area .list-single-product {  margin: 30px;  text-align: center;}
+.about-page-area .about-us-content .our-features-list .single-feature > a {margin: auto auto 15px;text-align: center;}
+.single-feature {  margin: 0 0px;}
+.main-servires-area .main-services-content h2 {  font-size:18px;}
+.main-single-service {  margin: 50px 0 0;text-align: center;}
+.benefit-business-planning { margin: 0 0 30px;}
+.single-services-area .services-content .main-single-service .business-benefit-image img { margin-bottom: 0;}
+.shop-page-area .product-list-view-area .list-single-product .media a,
+.team-member-area .total-teams .single-teams .media a.pull-left {display: block;float: inherit !important;margin-bottom: 30px;
+  margin-right: 0;}
+.related-product-area h3 {margin-left: 20px;}
+.related-product-area .single-product-store .product-content {  margin: 30px 0 0;  text-align: center;}
+.pagination-area { padding-top: 20px;}
+.product-details {  margin-top: 30px;}
+.portfolio-image { margin-bottom: 30px;}
+.portfolio-one-area .portfolio-menu ul li {padding: 7px 18px;margin: 3px;}
+.padding-zero{padding: 0;margin: 0;}
+.team-member-area .total-teams .single-teams .media .media-body .social-media ul {float: inherit;}
+.padding-top1 .single-team{  padding-top: 0;}
+.portfolio-details-area .portfolio-informations ul li {border-bottom: 1px solid #dddddd;margin-bottom: 10px;padding-bottom: 10px;}
+.padding-top1 .single-team {  padding-top: 0 !important;}
+.team-area.team-area2 .padding-top1{  padding-top: 0 !important;}
+.single-product-area .add-cart {margin: auto;text-align: center; width: 100%;}
+.portfolio-details-area .portfolio-informations .visit-project { width: 100%;}
+.portfolio-details-area .portfolio-informations h3 {margin-bottom: 40px;text-align: center;}
+.main-servires-area .main-services-content h2::after,
+.single-services-area .services-content .main-single-service h3::after,
+.shop-page-area .product-list-view-area .list-single-product .media a::after,
+.shop-page-area .product-list-view-area .list-single-product .media .media-body h4.media-heading::after,
+.single-product-area .product-details h3::after,
+.team-member-area .total-teams .single-teams .media .media-body h4.media-heading a::before,
+.portfolio-details-area .portfolio-informations h3::after,
+.portfolio-details-area .project-description h3::after,
+.portfolio-details-area .related-project h3::after,
+.single-blog-area .comments-area h3::after,
+.contact-page-area .contact-informations h3::after,
+.contact-page-area .contact-form h3::after{left: 0;right: 0;margin: auto;text-align: center;}
+.portfolio-details-area .related-project h3,
+.contact-page-area .contact-form h3{text-align: center;}
+.single-portfolio .portfolio-image {  margin-bottom: 0;}
+.blog-area .padding-top1.padding-removed {  padding-top: 0;}
+.blog-area .single-blog .blog-details h3,
+.section-area h2 {  font-size: 16px;}
+.single-comments-box .media-heading {font-size: 14px;}
+.single-comments-box .media-left{display: block;float: inherit !important;margin-bottom: 20px;padding-right: 0 !important;}
+.single-comments-box .media a.pull-left{display: block;float: inherit !important;margin-bottom: 20px;padding-right: 0 !important;}
+.single-blog-area .comments-area .single-comments-box .reply {display: block;float: inherit !important;margin: 20px 0;padding: 7px 0;}
+.single-blog-area .comments-area .single-comments-box.second-comments { margin-left: 0;}
+.contact-informations {  margin-bottom: 30px;  text-align: center;}
+.contact-page-area .contact-informations h3,
+.contact-page-area .contact-form h3,
+.section-area2 h2 {font-size: 18px;}
+.contact-page-area .contact-form {margin: 0 5px 0 25px; padding: 0;}
+.contact-page-area .contact-form .main-contact-form fieldset .btn-send { width: 100%;}
+.page-header-area h1 {font-size: 30px;margin-bottom: 8px;}
+.counter-up-area .ab-count .about-counter-list p {font-size: 14px;}
+.testimonial .testimonial-area .single-testimonial .customer-comment p {text-align: center;}
+.nivo-directionNav a {top: 33%;}
+.preview-2 .nivo-directionNav a.nivo-nextNav::before {font: 400 14px/38px FontAwesome;height: 35px;top: 0;width: 35px;}
+.preview-2 .nivo-directionNav a.nivo-prevNav::before {font: 400 14px/38px FontAwesome;height: 35px;top: 0;width: 35px;}
+.why-choose-us-area .single-choose {margin: 0;}
+.service-area .row.padding-top1 {padding-top: 0;}
+.price-table-area .single-price-table .price-title h3 {font-size: 18px;padding: 10px 0;}
+.price-table-area .single-price-table .monthly-price h4 {font-size: 30px;font-weight: 600;}
+/* spacing responsive */
+.who-we-are-area,
+.why-choose-us-area,
+.portfolio-area,
+.counter-up-area,
+.team-area,
+.testimonial,
+.blog-area,
+.service-area,
+.home2-testimonial-area,
+.blog-area2,
+.page-header-area,
+.about-page-area,
+.our-skill-area,
+.what-we-do-start-here,
+.price-table-area,
+.single-services-area,
+.shop-page-area,
+.portfolio-one-area,
+.portfolio-details-area,
+.error-page-area,
+.contact-page-area,
+.team-member-area,
+.cart-page-area,
+.checkout-page-area,
+.account-page-area{padding: 60px 0;  }
+
+ 
+}
+
+/* Small Mobile :320px. */
+@media (max-width: 320px) {
+.header-area,
+.header-two-area{display: none;}
+.mobile-menu-area{display: block;}
+.header-area .main-menu ul li { padding: 35px 8px; }
+.slider-area .slider-2 h1,
+.slider-area.slider-area-2 .slider-2 h1 {font-size: 20px;letter-spacing: 0;  }
+.slider-area .slider-2 div.slider-botton {margin-top: 25px;}
+.slider-area .slider-2 div.slider-botton ul li a,
+.slider-area .slider-2 div.slider-botton ul li.acitve a {padding: 5px 15px;}
+.slider-area .slider-2 div.slider-botton { margin-top: 5px;}
+.slider-area .slider-2 div.title2 {padding: 0 0%;font-size: 16px;display: none;}
+.why-choose-us-area {  background:#f1f1f1;}
+.who-we-are-area .skill .progress {margin: 60px 0;}
+.header-two-area .main-menu2-area ul li {padding: 15px 11px;}
+.header-two-area .search-area {  margin-top: 0;}
+.home2-about-us .about-content {  padding: 30px;text-align: center;}
+.home2-about-us,
+.home2-about-us .about-us-image img {min-height: 240px;}
+.blog-area2 .single-blog .blog-details h3 a,
+.what-we-do-start-here .single-feature h3 a,
+.blog-area .single-blog .blog-details h3 a {font-size: 16px;}
+.blog-area2 .single-blog .blog-details .blog-info ul li,
+.blog-area .single-blog .blog-details .blog-info ul li {margin-right:2px;font-size: 12px;}
+.blog-area2 .single-blog .blog-details .blog-info ul li i,
+.blog-area .single-blog .blog-details .blog-info ul li i {margin-right: 5px;}
+.main-servires-area .main-services-content {padding:30px;}
+.main-servires-area {min-height: 360px;}
+.media.single-post .pull-left a img { width: 70px;}
+.header-area .header-right-part ul li .search-area input:hover,
+.header-two-area .search-area input{	width: 110px;}
+.header-two-area .logo-area,
+.header-area .logo-area {padding: 10px 0;  text-align: center;}
+.header-two-area .search-area,
+.header-area .header-right-part{display: none;}
+.section-area, .section-area2 {  padding:0px;}
+.counter-up-area .ab-count .about-counter-list {margin: 20px 0;}
+.testimonial .testimonial-area .single-testimonial {  padding: 0;}
+.padding-768 {padding-top:0px;}
+.padding-768 .single-blog{margin-bottom: 0 !important}
+.padding1-768 {padding-top: 30px;}
+.slider-area.slider-area-2 .slider-2 div.title2 {font-size: 14px;letter-spacing: 5px;}
+.service-area .single-service { margin:35px 0;}
+.service-area .single-service:last-child {  margin: 70px 0 0;}
+.service-area .section-area2 p {  margin-bottom: 0;}
+.widget {  margin: 0 0 30px;}
+.our-skill-area .single-skill {  margin: 30px 0;}
+.what-we-do-start-here .single-feature,
+.price-table-area .single-price-table {margin: 15px 0;}
+.shop-page-area .tobar-area .showing-result ul li {display: block;height: 35px;margin-right: 0;text-align: center;}
+.shop-page-area .tab-content .tab-pane .single-product-area .product-image .overley .product-details .product-title h3 a {
+  font-size: 16px;font-weight: 500;}
+.padding-nai{padding: 0;margin: 0}
+.related-product-area .single-product-store::after {left: 36%;top: -50px;width: 40%;}
+.single-teams .padding-top {padding: 35px 0;}
+.portfolio-area .single-portfolio,
+.single-team { margin: 0 0 40px;}
+.testimonial .testimonial-area .single-testimonial .testimonial-top .image,
+.testimonial .testimonial-area .single-testimonial .testimonial-top .details {display: block;margin: 20px auto;text-align: center;}
+.testimonial .testimonial-area .single-testimonial .testimonial-top .image::after{display: none;}
+.testimonial .testimonial-area .single-testimonial .testimonial-top .details h3 {font-size: 14px;margin-bottom: 0;}
+.testimonial .testimonial-area .single-testimonial .testimonial-top .details p {  font-size: 12px;}
+.single-blog {margin-bottom: 60px;text-align: center;}
+.blog-area .single-blog .blog-details .blog-info ul,
+.about-page-area,
+.main-servires-area .main-services-content,
+.shop-page-area .tobar-area .view-area ul.nav-tabs,
+.product-details,
+.product-description ul.nav.nav-tabs,
+.product-description .tab-content,
+.team-member-area .total-teams .single-teams .media .media-body,
+.portfolio-details-area .project-description h3,
+.project-description > p,
+.portfolio-details-area .related-project h3::after{text-align: center;}
+.shop-page-area .tobar-area .view-area ul.nav-tabs li {display: inline-block;float: inherit;}
+.blog-area .single-blog .blog-details p,
+.section-area p {  margin-bottom: 24px;}
+.why-choose-us-area .single-choose .icon {margin-bottom: 30px;}
+.shop-page-area .product-list-view-area .list-single-product {  margin: 30px;  text-align: center;}
+.about-page-area .about-us-content .our-features-list .single-feature > a {margin: auto auto 15px;text-align: center;}
+.single-feature {  margin: 0 0px;}
+.main-servires-area .main-services-content h2 {  font-size:18px;}
+.main-single-service {  margin: 50px 0 0;text-align: center;}
+.benefit-business-planning { margin: 0 0 30px;}
+.single-services-area .services-content .main-single-service .business-benefit-image img { margin-bottom: 0;}
+.shop-page-area .product-list-view-area .list-single-product .media a,
+.team-member-area .total-teams .single-teams .media a.pull-left {display: block;float: inherit !important;margin-bottom: 30px;
+  margin-right: 0;}
+.related-product-area h3 {margin-left: 20px;}
+.related-product-area .single-product-store .product-content {  margin: 30px 0 0;  text-align: center;}
+.pagination-area { padding-top: 20px;}
+.product-details {  margin-top: 30px;}
+.portfolio-image { margin-bottom: 30px;}
+.portfolio-one-area .portfolio-menu ul li {padding: 7px 18px;margin: 3px;}
+.padding-zero{padding: 0;margin: 0;}
+.team-member-area .total-teams .single-teams .media .media-body .social-media ul {float: inherit;}
+.padding-top1 .single-team{  padding-top: 0;}
+.portfolio-details-area .portfolio-informations ul li {border-bottom: 1px solid #dddddd;margin-bottom: 10px;padding-bottom: 10px;}
+.padding-top1 .single-team {  padding-top: 0 !important;}
+.team-area.team-area2 .padding-top1{  padding-top: 0 !important;}
+.single-product-area .add-cart {margin: auto;text-align: center; width: 100%;}
+.portfolio-details-area .portfolio-informations .visit-project { width: 100%;}
+.portfolio-details-area .portfolio-informations h3 {margin-bottom: 40px;text-align: center;}
+.main-servires-area .main-services-content h2::after,
+.single-services-area .services-content .main-single-service h3::after,
+.shop-page-area .product-list-view-area .list-single-product .media a::after,
+.shop-page-area .product-list-view-area .list-single-product .media .media-body h4.media-heading::after,
+.single-product-area .product-details h3::after,
+.team-member-area .total-teams .single-teams .media .media-body h4.media-heading a::before,
+.portfolio-details-area .portfolio-informations h3::after,
+.portfolio-details-area .project-description h3::after,
+.portfolio-details-area .related-project h3::after,
+.single-blog-area .comments-area h3::after,
+.contact-page-area .contact-informations h3::after,
+.contact-page-area .contact-form h3::after{left: 0;right: 0;margin: auto;text-align: center;}
+.portfolio-details-area .related-project h3,
+.contact-page-area .contact-form h3{text-align: center;}
+.single-portfolio .portfolio-image {  margin-bottom: 0;}
+.blog-area .padding-top1.padding-removed {  padding-top: 0;}
+.blog-area .single-blog .blog-details h3,
+.section-area h2 {  font-size: 16px;}
+.single-comments-box .media-heading {font-size: 14px;}
+.single-comments-box .media-left{display: block;float: inherit !important;margin-bottom: 20px;padding-right: 0 !important;}
+.single-comments-box .media a.pull-left{display: block;float: inherit !important;margin-bottom: 20px;padding-right: 0 !important;}
+.single-blog-area .comments-area .single-comments-box .reply {display: block;float: inherit !important;margin: 20px 0;padding: 7px 0;}
+.single-blog-area .comments-area .single-comments-box.second-comments { margin-left: 0;}
+.contact-informations {  margin-bottom: 30px;  text-align: center;}
+.contact-page-area .contact-informations h3,
+.contact-page-area .contact-form h3,
+.section-area2 h2 {font-size: 18px;}
+.contact-page-area .contact-form {margin: 0 5px 0 25px; padding: 0;}
+.contact-page-area .contact-form .main-contact-form fieldset .btn-send { width: 100%;}
+.page-header-area h1 {font-size: 30px;margin-bottom: 8px;}
+.counter-up-area .ab-count .about-counter-list p {font-size: 14px;}
+.testimonial .testimonial-area .single-testimonial .customer-comment p {text-align: center;}
+.nivo-directionNav a {top: 33%;}
+.preview-2 .nivo-directionNav a.nivo-nextNav::before {font: 400 14px/38px FontAwesome;height: 35px;top: 0;width: 35px;}
+.preview-2 .nivo-directionNav a.nivo-prevNav::before {font: 400 14px/38px FontAwesome;height: 35px;top: 0;width: 35px;}
+.why-choose-us-area .single-choose {margin: 0;}
+.service-area .row.padding-top1 {padding-top: 0;}
+.price-table-area .single-price-table .price-title h3 {font-size: 18px;padding: 10px 0;}
+.price-table-area .single-price-table .monthly-price h4 {font-size: 30px;font-weight: 600;}
+/* spacing responsive */
+.who-we-are-area,
+.why-choose-us-area,
+.portfolio-area,
+.counter-up-area,
+.team-area,
+.testimonial,
+.blog-area,
+.service-area,
+.home2-testimonial-area,
+.blog-area2,
+.page-header-area,
+.about-page-area,
+.our-skill-area,
+.what-we-do-start-here,
+.price-table-area,
+.single-services-area,
+.shop-page-area,
+.portfolio-one-area,
+.portfolio-details-area,
+.error-page-area,
+.contact-page-area,
+.team-member-area,
+.cart-page-area,
+.checkout-page-area,
+.account-page-area{padding: 60px 0;  }
+
+ 
+} 

@@ -1,0 +1,4494 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800');
+/*....................................
+Template Name: Sigma Corporate HTML5 Template 
+Template URI: http://radontheme.com/
+Description: Sigma Corporate HTML5 Template one of the most latest Corporate HTML5 Template.
+Author: periodicitems
+Author URI: http://radontheme.com/
+Version: 1.0
+....................................
+CSS INDEX
+....................................
+1.Theme Default CSS (body, link color, section etc)
+    1.1 Reset CSS
+2.Multi Color Setting Start Here 
+3.Header Area Start Here
+4.Slider area styling
+5.Who we are section Start here
+6.Why Choose Us Start Here
+7.Portfolio Section Start Here
+8.Counter Area Start Here
+9.Team Area Start Here
+10.Testimonial Area Start Here
+11.Blog Area Start Here
+12.Footer Start Here
+13.Scroll Top Area Here
+14. Home Page Styling Start Here
+  14.1 Header Two Start Here
+  14.2 Slider area styling
+  14.3 Sticky Header Start Here 
+  14.4 Blog Area Start Here 
+  14.5 Services Start Here
+  14.6 Home Two about Us Area Start Here
+  14.7 Portfolio Section Start Here
+  14.8. Counter Area Start Here
+  14.9 Team Area Start Here 
+  14.10 Home Two Testimonial Area Start Here
+15.Page Header Section breadcumb Start Here
+16. About Page Start Here
+  16.1 Our-skill-area start
+  16.2 About Page Start Here
+17.Services Page Start Here
+  17.1 Main Services Area Start Here
+  17.2 Price Table Start Here
+18.Single Servies Start Here
+19.Shop Page Start Here
+20.Pagination Area Start Here
+21.Single Product Start Here  
+22.Single Team Member Start Here
+23.Portfolio One Start Here
+24.Portfolio Details Start Here
+25. Single Blog Area Start Here
+26.Error Page Start Here
+27.Contact Page Start Here
+28.cart page area section
+29.checkout page area section
+30.account page area section
+....................................*/
+/*....................................
+1.Theme default CSS
+....................................*/
+html,
+body {
+  height: 100%;
+  font-size: 14px;
+  color: #222222;
+  font-family: 'Raleway', sans-serif;
+  vertical-align: baseline;
+  line-height: 26px;
+  font-weight: 400;
+}
+/* ....................................
+1.1 Reset CSS 
+.......................................*/
+.floatleft {
+  float: left;
+}
+.floatright {
+  float: right;
+}
+.alignleft {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 26px;
+}
+.alignright {
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 26px;
+}
+.aligncenter {
+  display: block;
+  margin: 0 auto 26px;
+}
+a:focus {
+  outline: 0px solid;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.fix {
+  overflow: hidden;
+}
+p {
+  margin: 0 0 26px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 26px;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+}
+a {
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+}
+a:hover {
+  color: #00c3ff;
+  text-decoration: none;
+}
+a:active,
+a:hover {
+  outline: 0 none;
+  color: #096b89;
+}
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.clear {
+  clear: both;
+}
+::-moz-selection {
+  background: #00c3ff;
+  text-shadow: none;
+}
+::selection {
+  background: #00c3ff;
+  text-shadow: none;
+}
+.browserupgrade {
+  margin: 26px  0;
+  background: #00c3ff;
+  color: #333333;
+  padding: 26px 0;
+}
+.acurate {
+  margin: 0;
+  padding: 0;
+}
+.padding {
+  padding: 30px;
+}
+.padding-top {
+  padding-top: 30px;
+}
+.padding-bottom {
+  padding-bottom: 30px;
+}
+.padding1 {
+  padding: 60px;
+}
+.padding-top1 {
+  padding-top: 60px;
+}
+.padding-bottom1 {
+  padding-bottom: 60px;
+}
+.mobile-menu-area {
+  display: none;
+}
+.mean-container .mean-nav {
+  position: absolute;
+  top: 100%;
+}
+.section-area {
+  padding: 0 250px;
+}
+.section-area h2 {
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 30px;
+  position: relative;
+}
+.section-area h2 span {
+  color: #00c3ff;
+}
+.section-area h2:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #00c3ff;
+  height: 2px;
+  content: "";
+  bottom: -15px;
+  width: 30px;
+}
+.section-area p {
+  margin-bottom: 30px;
+}
+.section-area2 {
+  padding: 0 250px;
+}
+.section-area2 h2 {
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 30px;
+  position: relative;
+}
+.section-area2 h2 span {
+  color: #00c3ff;
+}
+.section-area2 h2:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #00c3ff;
+  height: 2px;
+  content: "";
+  bottom: -15px;
+  width: 30px;
+}
+.section-area2 p {
+  margin-bottom: 30px;
+}
+.form-control::-moz-placeholder {
+  color: #111111;
+}
+/* ....................................
+2.Multi Color Setting Start Here 
+.......................................*/
+.demo-panel-setting-area {
+  width: 180px;
+  height: 180px;
+  background: #000000;
+  display: block;
+  position: fixed;
+  top: 16%;
+  left: -182px;
+  transition: all 0.5s ease 0s;
+  padding: 22px 15px;
+  z-index: 9999999;
+}
+.demo-panel-setting-area h3 {
+  font-size: 16px;
+  color: #1E90FF;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 10px;
+  text-shadow: 1px 1px 0px #ffffff;
+}
+.demo-panel-setting-area .color-scheme-area {
+  margin-bottom: 30px;
+}
+.demo-panel-setting-area .color-scheme-area span {
+  cursor: pointer;
+  display: block;
+  float: left;
+  height: 30px;
+  margin: 3px;
+  width: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid #000000;
+}
+.demo-panel-setting-area .color-scheme-area span.skype-color {
+  background: #099aad;
+}
+.demo-panel-setting-area .color-scheme-area span.red-color {
+  background: #86c724;
+}
+.demo-panel-setting-area .color-scheme-area span.green-color {
+  background: #008000;
+}
+.demo-panel-setting-area .color-scheme-area span.orange-color {
+  background: #FFA500;
+}
+.demo-panel-setting-area .color-scheme-area span.coral-color {
+  background: #FF7F50;
+}
+.demo-panel-setting-area .color-scheme-area span.deeppink-color {
+  background: #FF1493;
+}
+.demo-panel-setting-area .color-scheme-area span.khaki-color {
+  background: #ba933e;
+}
+.demo-panel-setting-area .color-scheme-area span.greenyellow-color {
+  background: #B9DF00;
+}
+.demo-panel-setting-area .cross-button {
+  display: inline-block;
+  position: absolute;
+  right: -33px;
+  top: -20px;
+  color: #00c3ff;
+  cursor: pointer;
+}
+.demo-panel-setting-area .cross-button i {
+  font-size: 36px;
+  font-weight: bold;
+}
+.demo-panel-setting-area .cross-button .fa-spin {
+  -webkit-transform-origin: 50% calc(49.5%);
+  transform-origin: 50% calc(49.5%);
+}
+.highlight {
+  left: 0px;
+}
+/*.....................................
+3.Header Area Start Here 
+.......................................*/
+.cookcodesmenu_menu {
+  display: none;
+}
+.menuHidden {
+  display: block !important;
+}
+.header-top-area {
+  background: #000;
+  padding: 10px 0;
+}
+.header-top-area .header-top-left .social-media {
+  margin-top: 2px;
+}
+.header-top-area .header-top-left .social-media ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header-top-area .header-top-left .social-media ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.header-top-area .header-top-left .social-media ul li a {
+  display: block;
+  transition: all 0.5s ease 0s;
+}
+.header-top-area .header-top-left .social-media ul li a:hover i {
+  color: #00c3ff;
+}
+.header-top-area .header-top-left .social-media ul li a i {
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+}
+.header-top-area .header-top-right ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header-top-area .header-top-right ul li {
+  display: inline-block;
+  margin-right: 10px;
+  color: #ffffff;
+  font-weight: 300;
+}
+.header-top-area .header-top-right ul li i {
+  color: #ffffff;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  text-align: center;
+  background: #00c3ff;
+  line-height: 25px;
+  margin-right: 5px;
+}
+.header-area {
+  background: #fff;
+}
+.header-area.header-two {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+.header-area .logo-area {
+  padding-top: 18px;
+}
+.header-area .logo-area a {
+  display: block;
+}
+.header-area .main-menu ul {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+.header-area .main-menu ul li {
+  display: inline-block;
+  padding: 35px 11px;
+  position: relative;
+  /* Dropdown Menu area */
+}
+.header-area .main-menu ul li a {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  transition: all 0.5s ease 0s;
+}
+.header-area .main-menu ul li.active:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 100%;
+  height: 2px;
+  background: #00c3ff;
+  content: "";
+  bottom: 0;
+  margin: auto;
+}
+.header-area .main-menu ul li.active a {
+  color: #00c3ff;
+}
+.header-area .main-menu ul li:hover a {
+  color: #00c3ff;
+}
+.header-area .main-menu ul li:after {
+  position: absolute;
+}
+.header-area .main-menu ul li ul {
+  background: #fff;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  transform: scaleY(0);
+  transform-origin: 0 0 0;
+  transition: all 0.5s ease 0s;
+  width: 200px;
+  z-index: 99999 !important;
+  text-align: left;
+  visibility: hidden;
+}
+.header-area .main-menu ul li ul li {
+  display: block;
+  border-bottom: 1px solid #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+.header-area .main-menu ul li ul li:after {
+  display: none;
+}
+.header-area .main-menu ul li ul li:last-child {
+  border-bottom: 0;
+}
+.header-area .main-menu ul li ul li a {
+  display: block;
+  padding: 6px 20px;
+  text-transform: none;
+  transition: all 0.5s ease 0s;
+  color: #000 !important;
+}
+.header-area .main-menu ul li ul li a:hover {
+  padding-left: 30px;
+  color: #00c3ff !important;
+}
+.header-area .main-menu ul li:hover ul {
+  opacity: 1;
+  transform: scaleY(1);
+  visibility: visible;
+}
+.header-area .header-right {
+  padding: 35px 0;
+  text-align: right;
+}
+.header-area .header-right .search {
+  text-align: right;
+}
+.header-area .header-right .search i {
+  font-size: 20px;
+  font-weight: 600;
+  color: #00c3ff;
+  padding: 0 10px;
+}
+.header-area .header-right .search-box {
+  position: absolute;
+  right: 20px;
+  top: 100%;
+  display: none;
+  z-index: 9;
+}
+.header-area .header-right .search-box form.search-form {
+  position: relative;
+}
+.header-area .header-right .search-box input {
+  height: 40px;
+  width: 200px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  border: 1px solid #00c3ff;
+}
+.header-area .header-right .search-box input.search-submit {
+  width: 65px !important;
+  background: #00c3ff;
+  color: #fff;
+  font-weight: 600;
+  border: 1px solid #00c3ff;
+  border-radius: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0;
+}
+/*.....................................
+4. Slider area styling
+.......................................*/
+.slider-area .preview-2 .nivo-directionNav a.nivo-prevNav:hover:before {
+  background: #00c3ff;
+  color: #ffffff !important;
+}
+.slider-area .preview-2 .nivo-directionNav a.nivo-prevNav:before {
+  color: #ffffff;
+}
+.slider-area .preview-2 .nivo-directionNav a.nivo-nextNav:hover:before {
+  background: #00c3ff;
+  color: #ffffff !important;
+}
+.slider-area .preview-2 .nivo-directionNav a.nivo-nextNav:before {
+  color: #ffffff !important;
+}
+.slider-area .slider-1 h1 {
+  font-size: 72px;
+  color: #ffffff;
+  line-height: 1.55;
+  letter-spacing: 7px;
+  margin: 15px 0 0;
+  font-weight: 800;
+}
+.slider-area .slider-1 h1 span {
+  color: #00c3ff;
+}
+.slider-area .slider-1 div.title2 {
+  font-size: 20px;
+  color: #ffffff;
+  padding: 0 25%;
+  font-weight: normal;
+  line-height: 1.5;
+}
+.slider-area .slider-1 div.slider-botton {
+  display: block;
+  margin-top: 50px;
+}
+.slider-area .slider-1 div.slider-botton ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.slider-area .slider-1 div.slider-botton ul li.acitve a {
+  display: block;
+  padding: 17px 40px;
+  color: #ffffff;
+  transition: all 0.5s ease 0s;
+  background: #00c3ff;
+  border: 1px solid #00c3ff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.slider-area .slider-1 div.slider-botton ul li a {
+  display: block;
+  padding: 17px 40px;
+  color: #ffffff;
+  border: 1px solid #00c3ff;
+  transition: all 0.5s ease 0s;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.slider-area .slider-1 div.slider-botton ul li a:hover {
+  background: #00c3ff;
+}
+.slider-area .slider-2 h1 {
+  font-size: 72px;
+  color: #ffffff;
+  line-height: 1.55;
+  letter-spacing: 7px;
+  margin: 15px 0 0;
+  font-weight: 800;
+}
+.slider-area .slider-2 h1 span {
+  color: #00c3ff;
+}
+.slider-area .slider-2 div.title2 {
+  font-size: 20px;
+  color: #ffffff;
+  padding: 0 25%;
+  font-weight: normal;
+  line-height: 1.5;
+}
+.slider-area .slider-2 div.slider-botton {
+  display: block;
+  margin-top: 50px;
+}
+.slider-area .slider-2 div.slider-botton ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.slider-area .slider-2 div.slider-botton ul li:hover.acitve a {
+  background: #096b89;
+  border: 1px solid #096b89;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.slider-area .slider-2 div.slider-botton ul li.acitve a {
+  display: block;
+  padding: 17px 40px;
+  color: #ffffff;
+  transition: all 0.5s ease 0s;
+  background: #00c3ff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.slider-area .slider-2 div.slider-botton ul li a {
+  display: block;
+  padding: 17px 40px;
+  color: #ffffff;
+  border: 1px solid #00c3ff;
+  transition: all 0.5s ease 0s;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.slider-area .slider-2 div.slider-botton ul li a:hover {
+  background: #00c3ff;
+}
+/* ....................................
+5.Who we are section Start Here 
+.......................................*/
+.who-we-are-area {
+  padding: 100px 0;
+}
+.who-we-are-area .skill-content-3 {
+  overflow: hidden;
+}
+.who-we-are-area .skill .progress .lead {
+  color: #444;
+  font-size: 16px;
+  font-weight: 600;
+  left: 0;
+  position: absolute;
+  top: -35px;
+  z-index: 99;
+}
+.who-we-are-area .skill .progress {
+  background-color: #f0f0f0;
+  border-radius: 0;
+  box-shadow: none;
+  height: 7px;
+  margin: 65px 0 80px;
+  overflow: visible;
+  position: relative;
+}
+.who-we-are-area .skill .progress-bar > span {
+  background: #00c3ff;
+  float: right;
+  font-size: 12px;
+  margin-right: 10px;
+  margin-top: -43px;
+  position: relative;
+  padding: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.who-we-are-area .skill .progress-bar > span:before,
+.who-we-are-area .skill .progress-bar > span:after {
+  border: medium solid transparent;
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 100%;
+  width: 0;
+}
+.who-we-are-area .skill .progress-bar > span:before {
+  border-top-color: #00c3ff;
+  border-width: 5px;
+  left: 50%;
+  margin-left: -5px;
+}
+.who-we-are-area .holax-shop h3,
+.who-we-are-area .we-are-good-at h3 {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+.who-we-are-area .skill .progress:nth-child(1) .progress-bar {
+  background: #00c3ff;
+}
+.who-we-are-area .skill .progress:nth-child(2) .progress-bar {
+  background: #00c3ff;
+}
+.who-we-are-area .skill .progress:nth-child(3) .progress-bar {
+  background: #00c3ff;
+}
+.who-we-are-area .skill .progress:nth-child(4) .progress-bar {
+  background: #00c3ff;
+}
+/* ....................................
+6.Why Choose Us Start Here 
+.......................................*/
+.why-choose-us-area {
+  padding: 100px 0;
+  background: url('images/whychoose/bg.jpg');
+  background-size: cover;
+}
+.why-choose-us-area .single-choose {
+  margin: 30px;
+}
+.why-choose-us-area .single-choose .icon {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.why-choose-us-area .single-choose .icon:hover a {
+  background: #00c3ff;
+}
+.why-choose-us-area .single-choose .icon:hover a i {
+  color: #ffffff;
+}
+.why-choose-us-area .single-choose .icon a {
+  overflow: hidden;
+  width: 80px;
+  height: 80px;
+  line-height: 95px;
+  text-align: center;
+  margin: auto;
+  border: 1px solid #00c3ff;
+  transition: all 0.5s ease 0s;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: block;
+}
+.why-choose-us-area .single-choose .icon a i {
+  font-size: 40px;
+  font-weight: 600;
+  color: #00c3ff;
+}
+.why-choose-us-area .single-choose h3 {
+  margin-bottom: 10px;
+}
+.why-choose-us-area .single-choose h3 a {
+  transition: all 0.5s ease 0s;
+  display: block;
+  color: #444444;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+}
+.why-choose-us-area .single-choose h3 a:hover {
+  color: #00c3ff;
+}
+/* ....................................
+7.Portfolio Section Start Here 
+.......................................*/
+.portfolio-area {
+  padding: 100px 0;
+}
+.portfolio-area .section-area p {
+  margin-bottom: 15px;
+}
+.portfolio-area .single-portfolio {
+  position: relative;
+  margin: 15px 0;
+  overflow: hidden;
+}
+.portfolio-area .single-portfolio:hover .overley {
+  opacity: 1;
+  transform: scale(1);
+}
+.portfolio-area .single-portfolio .portfolio-image {
+  overflow: hidden;
+  position: relative;
+  height: 250px;
+}
+.portfolio-area .single-portfolio .portfolio-image a {
+  display: block;
+}
+.portfolio-area .single-portfolio .portfolio-image a img {
+  width: 100%;
+  min-height: 250px;
+}
+.portfolio-area .single-portfolio .overley {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s ease 0s;
+  opacity: 0;
+  transform: scale(0);
+  background: rgba(0, 0, 0, 0.8);
+}
+.portfolio-area .single-portfolio .overley .portfolio-details {
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.portfolio-area .single-portfolio .overley .portfolio-details h3 {
+  margin-bottom: 0px;
+}
+.portfolio-area .single-portfolio .overley .portfolio-details h3 a {
+  transition: all 0.5s ease 0s;
+  display: block;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.portfolio-area .single-portfolio .overley .portfolio-details h3 a:hover {
+  color: #00c3ff;
+}
+.portfolio-area .single-portfolio .overley .portfolio-details span {
+  color: #ffffff;
+  margin-bottom: 0;
+}
+/* ....................................
+8.Counter Area Start Here
+....................................... */
+.counter-up-area {
+  padding: 100px 0;
+  background: url('images/counter.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.counter-up-area .ab-count .about-counter-list {
+  color: #ffffff;
+  text-align: left;
+  display: block;
+  text-align: center;
+}
+.counter-up-area .ab-count .about-counter-list h1.about-counter {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+  color: #00c3ff;
+  position: relative;
+}
+.counter-up-area .ab-count .about-counter-list h1.about-counter:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #00c3ff;
+  height: 2px;
+  content: "";
+  bottom: -15px;
+  width: 30px;
+}
+.counter-up-area .ab-count .about-counter-list p {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 0;
+  text-align: center;
+}
+/* ....................................
+9.Team Area Start Here 
+.......................................*/
+.team-area {
+  padding: 100px 0;
+}
+.team-area .single-team .team-image {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.team-area .single-team .team-image:hover .overley {
+  opacity: 1;
+  transform: scale(1);
+}
+.team-area .single-team .team-image a {
+  display: block;
+}
+.team-area .single-team .team-image a img {
+  width: 100%;
+}
+.team-area .single-team .team-image .overley {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s ease 0s;
+  opacity: 0;
+  transform: scale(0);
+  background: rgba(0, 0, 0, 0.8);
+}
+.team-area .single-team .team-image .overley .team-link {
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.team-area .single-team .team-image .overley .team-link a {
+  display: block;
+}
+.team-area .single-team .team-image .overley .team-link a i {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  transition: all 0.5s ease 0s;
+}
+.team-area .single-team .team-image .overley .team-link a i:hover {
+  color: #00c3ff;
+}
+.team-area .single-team .team-image .overley .social-media {
+  position: absolute;
+  right: 2px;
+  bottom: 1px;
+}
+.team-area .single-team .team-image .overley .social-media ul li {
+  display: block;
+  margin: 1px 0;
+}
+.team-area .single-team .team-image .overley .social-media ul li a {
+  background: #ffffff none repeat scroll 0 0;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  width: 30px;
+  transition: all 0.5s ease 0s;
+  color: #222222;
+}
+.team-area .single-team .team-image .overley .social-media ul li a:hover {
+  color: #00c3ff;
+  font-size: 12px;
+}
+.team-area .single-team .team-details {
+  text-align: center;
+}
+.team-area .single-team .team-details h3 {
+  margin-bottom: 10px;
+}
+.team-area .single-team .team-details h3 a {
+  transition: all 0.5s ease 0s;
+  display: block;
+  color: #222222;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.team-area .single-team .team-details h3 a:hover {
+  color: #00c3ff;
+}
+/* ....................................
+10.Testimonial Area Start Here 
+.......................................*/
+.testimonial {
+  padding: 100px 0;
+  background: url('images/testimonial/bg.png') no-repeat;
+  background-size: cover;
+}
+.testimonial .testimonial-area .single-testimonial {
+  padding: 0 200px;
+}
+.testimonial .testimonial-area .single-testimonial .testimonial-top .image {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+.testimonial .testimonial-area .single-testimonial .testimonial-top .image:after {
+  position: absolute;
+  left: 14px;
+  right: 0;
+  margin: auto;
+  color: #ffffff;
+  height: 2px;
+  content: "\f0d8";
+  bottom: 4px;
+  width: 30px;
+  font-family: fontawesome;
+}
+.testimonial .testimonial-area .single-testimonial .testimonial-top .image img {
+  width: 90px;
+  height: 90px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.testimonial .testimonial-area .single-testimonial .testimonial-top .details {
+  display: inline-block;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.testimonial .testimonial-area .single-testimonial .testimonial-top .details h3 {
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+.testimonial .testimonial-area .single-testimonial .testimonial-top .details p {
+  font-size: 14px;
+}
+.testimonial .testimonial-area .single-testimonial .customer-comment {
+  border: 1px solid #ffffff;
+  margin: 10px;
+}
+.testimonial .testimonial-area .single-testimonial .customer-comment p {
+  color: #ffffff;
+  padding: 30px;
+}
+.testimonial .testimonial-area .owl-controls .owl-pagination .owl-page.active span {
+  background: #00c3ff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+.testimonial .testimonial-area .owl-controls .owl-pagination .owl-page span {
+  background: #00c3ff;
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+/* ....................................
+11.Blog Area Start Here 
+.......................................*/
+.blog-area {
+  padding: 100px 0;
+}
+.blog-area .single-blog:hover .blog-image .overley {
+  opacity: 1;
+  transform: scale(1);
+}
+.blog-area .single-blog:hover .blog-image .overley .blog-link a i {
+  color: #00c3ff;
+}
+.blog-area .single-blog:hover .blog-details h3 a {
+  color: #00c3ff;
+}
+.blog-area .single-blog:hover .blog-details .blog-info ul li i {
+  color: #00c3ff;
+}
+.blog-area .single-blog:hover .blog-details .read-more a {
+  color: #00c3ff;
+}
+.blog-area .single-blog .blog-image {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.blog-area .single-blog .blog-image:hover .overley {
+  opacity: 1;
+  transform: scale(1);
+}
+.blog-area .single-blog .blog-image a {
+  display: block;
+}
+.blog-area .single-blog .blog-image a img {
+  width: 100%;
+}
+.blog-area .single-blog .blog-image .overley {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s ease 0s;
+  opacity: 0;
+  transform: scale(0);
+  background: rgba(0, 0, 0, 0.8);
+}
+.blog-area .single-blog .blog-image .overley .blog-link {
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.blog-area .single-blog .blog-image .overley .blog-link a {
+  display: block;
+}
+.blog-area .single-blog .blog-image .overley .blog-link a i {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  transition: all 0.5s ease 0s;
+}
+.blog-area .single-blog .blog-image .overley .blog-link a i:hover {
+  color: #00c3ff;
+}
+.blog-area .single-blog .blog-details h3 {
+  margin-bottom: 10px;
+}
+.blog-area .single-blog .blog-details h3 a {
+  color: #444444;
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.5s ease 0s;
+}
+.blog-area .single-blog .blog-details h3 a:hover {
+  color: #00c3ff;
+}
+.blog-area .single-blog .blog-details .blog-info {
+  margin-bottom: 20px;
+}
+.blog-area .single-blog .blog-details .blog-info ul {
+  text-align: left;
+}
+.blog-area .single-blog .blog-details .blog-info ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.blog-area .single-blog .blog-details .blog-info ul li i {
+  margin-right: 10px;
+}
+.blog-area .single-blog .blog-details p {
+  margin-bottom: 20px;
+}
+.blog-area .single-blog .blog-details .read-more {
+  display: inline-block;
+  position: relative;
+}
+.blog-area .single-blog .blog-details .read-more:after {
+  position: absolute;
+  content: "\f101";
+  top: 0;
+  right: -40px;
+  font-family: fontawesome;
+  width: 30px;
+  height: 30px;
+  color: #00c3ff;
+}
+.blog-area .single-blog .blog-details .read-more a {
+  color: #444444;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.5s ease 0s;
+}
+.blog-area .single-blog .blog-details .read-more a:hover {
+  color: #00c3ff;
+}
+/* ....................................
+12.Footer Start Here 
+.......................................*/
+.footer-top-area {
+  padding: 50px 0;
+  background: #f5f5f5;
+}
+.footer-top-area .widget .footer-logo {
+  margin-bottom: 20px;
+}
+.footer-top-area .widget .footer-logo a {
+  display: block;
+}
+.footer-top-area .widget .social-media ul {
+  text-align: left;
+}
+.footer-top-area .widget .social-media ul li {
+  display: inline-block;
+  margin: 1px 0;
+}
+.footer-top-area .widget .social-media ul li a {
+  border: 1px solid #00c3ff;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  width: 30px;
+  transition: all 0.5s ease 0s;
+  color: #ffffff;
+  text-align: center;
+  margin: auto;
+  background: #00c3ff;
+}
+.footer-top-area .widget .social-media ul li a:hover {
+  background: #096b89;
+  border: 1px solid #096b89;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.footer-top-area .widget h2.widget-title {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.footer-top-area .widget .menu-header-container ul {
+  margin: 0;
+  padding: 0;
+}
+.footer-top-area .widget .menu-header-container ul li {
+  display: block;
+  position: relative;
+  margin-left: 10px;
+}
+.footer-top-area .widget .menu-header-container ul li:before {
+  position: absolute;
+  left: -15px;
+  top: 0;
+  content: "\f101";
+  font-family: fontawesome;
+  width: 20px;
+  height: 20px;
+  color: #222222;
+}
+.footer-top-area .widget .menu-header-container ul li a {
+  display: block;
+  transition: all 0.5s ease 0s;
+  color: #222222;
+  text-decoration: none;
+}
+.footer-top-area .widget .menu-header-container ul li a:hover {
+  color: #00c3ff;
+}
+.footer-top-area .widget form .form-group input {
+  width: 100%;
+  height: 40px !important;
+}
+.footer-top-area .widget form .subscribe {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.footer-top-area .widget form .subscribe a {
+  display: block;
+  background: #00c3ff;
+  padding: 5px 20px;
+  color: #ffffff;
+  transition: all 0.5s ease 0s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.footer-top-area .widget form .subscribe a:hover {
+  background: #096b89;
+}
+.footer-top-area .widget .popular-tags {
+  padding-top: 20px;
+}
+.footer-top-area .widget .popular-tags ul li {
+  display: inline-block;
+  border: 1px solid #e1e1e1;
+  margin: 2px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.footer-top-area .widget .popular-tags ul li:hover {
+  border: 1px solid #00c3ff;
+  background: #00c3ff;
+}
+.footer-top-area .widget .popular-tags ul li:hover a {
+  color: #ffffff;
+}
+.footer-top-area .widget .popular-tags ul li a {
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
+  color: #6a6a6a;
+}
+.footer-bottom-area {
+  background: #00c3ff;
+  padding: 15px 0;
+}
+.footer-bottom-area .footer-copy-right {
+  text-align: center;
+}
+.footer-bottom-area .footer-copy-right p {
+  margin: 0;
+  color: #ffffff;
+}
+.footer-bottom-area .footer-copy-right p a {
+  color: #ffffff;
+  font-weight: 600;
+  margin: 0 5px;
+  transition: all .3s;
+}
+.footer-bottom-area .footer-copy-right p a:hover {
+  font-weight: 800;
+}
+.footer-top-area2 {
+  padding: 50px 0;
+  background: #f5f5f5;
+}
+.footer-top-area2 .widget .footer-logo {
+  margin-bottom: 20px;
+}
+.footer-top-area2 .widget .footer-logo a {
+  display: block;
+}
+.footer-top-area2 .widget .social-media ul {
+  text-align: left;
+}
+.footer-top-area2 .widget .social-media ul li {
+  display: inline-block;
+  margin: 1px 0;
+}
+.footer-top-area2 .widget .social-media ul li a {
+  border: 1px solid #00c3ff;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  width: 30px;
+  transition: all 0.5s ease 0s;
+  color: #ffffff;
+  text-align: center;
+  margin: auto;
+  background: #00c3ff;
+}
+.footer-top-area2 .widget .social-media ul li a:hover {
+  background: #096b89;
+  border: 1px solid #096b89;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.footer-top-area2 .widget h2.widget-title {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.footer-top-area2 .widget .menu-header-container ul {
+  margin: 0;
+  padding: 0;
+}
+.footer-top-area2 .widget .menu-header-container ul li {
+  display: block;
+  position: relative;
+  margin-left: 10px;
+}
+.footer-top-area2 .widget .menu-header-container ul li:before {
+  position: absolute;
+  left: -15px;
+  top: 0;
+  content: "\f101";
+  font-family: fontawesome;
+  width: 20px;
+  height: 20px;
+  color: #222222;
+}
+.footer-top-area2 .widget .menu-header-container ul li a {
+  display: block;
+  transition: all 0.5s ease 0s;
+  color: #222222;
+  text-decoration: none;
+}
+.footer-top-area2 .widget .menu-header-container ul li a:hover {
+  color: #00c3ff;
+}
+.footer-top-area2 .widget form .form-group input {
+  width: 100%;
+  height: 40px !important;
+}
+.footer-top-area2 .widget form .subscribe {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.footer-top-area2 .widget form .subscribe a {
+  display: block;
+  background: #00c3ff;
+  padding: 5px 20px;
+  color: #ffffff;
+  transition: all 0.5s ease 0s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.footer-top-area2 .widget form .subscribe a:hover {
+  background: #096b89;
+}
+.footer-top-area2 .widget .popular-tags {
+  padding-top: 20px;
+}
+.footer-top-area2 .widget .popular-tags ul li {
+  display: inline-block;
+  border: 1px solid #e1e1e1;
+  margin: 2px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.footer-top-area2 .widget .popular-tags ul li:hover {
+  border: 1px solid #00c3ff;
+  background: #00c3ff;
+}
+.footer-top-area2 .widget .popular-tags ul li:hover a {
+  color: #ffffff;
+}
+.footer-top-area2 .widget .popular-tags ul li a {
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
+  color: #6a6a6a;
+}
+.footer-bottom-area2 {
+  background: #00c3ff;
+  padding: 15px 0;
+}
+.footer-bottom-area2 .footer-copy-right {
+  text-align: center;
+}
+.footer-bottom-area2 .footer-copy-right p {
+  margin: 0;
+  color: #ffffff;
+}
+.footer-bottom-area2 .footer-copy-right p a {
+  color: #ffffff;
+  font-weight: 600;
+  margin: 0 5px;
+  transition: all .3s;
+}
+.footer-bottom-area2 .footer-copy-right p a:hover {
+  font-weight: 800;
+}
+/* ....................................
+13.Scroll Top Area Here 
+.......................................*/
+#scrollUp {
+  background: #000000;
+  border-radius: 2px 2px 0 0;
+  bottom: 100px;
+  color: #ffffff !important;
+  display: block;
+  font-size: 25px;
+  height: 40px;
+  line-height: 0;
+  position: fixed;
+  right: 20px;
+  text-align: center;
+  text-decoration: none !important;
+  transition: all 0.5s cubic-bezier(0, 0, 0, 1) 0s;
+  width: 50px;
+  z-index: 1000;
+}
+#scrollUp:hover {
+  background: #096b89;
+}
+#scrollUp i {
+  display: block;
+  padding-top: 5px;
+}
+/* ....................................
+Sticky Header Start Here 
+.......................................*/
+.header-area.stick {
+  background: rgba(255, 255, 255, 0.8);
+  position: fixed !important;
+  top: 0px;
+  z-index: 9999;
+  margin: 0 auto !important;
+  padding: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #00c3ff;
+}
+/* ....................................
+14. Home Page Styling Start Here 
+.......................................*/
+/* ....................................
+14.1 Header Two Start Here 
+.......................................*/
+.header-two-area {
+  background: #ffffff;
+}
+.header-two-area .logo-area {
+  padding-top: 28px;
+}
+.header-two-area .logo-area a {
+  display: block;
+}
+.header-two-area .main-menu2-area ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.header-two-area .main-menu2-area ul li {
+  display: inline-block;
+  padding: 35px 7px;
+  position: relative;
+  /* Dropdown Menu area */
+}
+.header-two-area .main-menu2-area ul li a {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #444444;
+  font-weight: 500;
+  transition: all 0.5s ease 0s;
+}
+.header-two-area .main-menu2-area ul li.active {
+  background: #00c3ff;
+}
+.header-two-area .main-menu2-area ul li.active a {
+  color: #ededed;
+}
+.header-two-area .main-menu2-area ul li:hover {
+  background: #00c3ff;
+}
+.header-two-area .main-menu2-area ul li:hover a {
+  color: #dddddd;
+}
+.header-two-area .main-menu2-area ul li:after {
+  position: absolute;
+}
+.header-two-area .main-menu2-area ul li ul {
+  background: #00c3ff;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  transform: scaleY(0);
+  transform-origin: 0 0 0;
+  transition: all 0.5s ease 0s;
+  width: 200px;
+  z-index: 99999 !important;
+  text-align: left;
+  visibility: hidden;
+}
+.header-two-area .main-menu2-area ul li ul li {
+  display: block;
+  border-bottom: 1px dashed #ffffff;
+  margin: 0;
+  padding: 0;
+}
+.header-two-area .main-menu2-area ul li ul li:last-child {
+  border-bottom: 0;
+}
+.header-two-area .main-menu2-area ul li ul li a {
+  display: block;
+  padding: 6px 20px;
+  text-transform: none;
+  transition: all 0.5s ease 0s;
+  color: #ffffff !important;
+}
+.header-two-area .main-menu2-area ul li ul li a:hover {
+  padding-left: 30px;
+  color: #ededed !important;
+}
+.header-two-area .main-menu2-area ul li:hover ul {
+  opacity: 1;
+  transform: scaleY(1);
+  visibility: visible;
+}
+.header-two-area .search-area label {
+  position: relative;
+  overflow: hidden;
+}
+.header-two-area .search-area input {
+  padding: 5px;
+  margin-top: 0px;
+  background: transparent;
+  color: #333333;
+  border: 1px solid #dddddd;
+}
+/* ....................................
+14.2 Slider area styling 
+.......................................*/
+.slider-area.slider-area-2 .preview-2 .nivo-directionNav a.nivo-prevNav:hover:before {
+  background: #00c3ff;
+  color: #ffffff !important;
+}
+.slider-area.slider-area-2 .preview-2 .nivo-directionNav a.nivo-prevNav:before {
+  color: #ffffff;
+}
+.slider-area.slider-area-2 .preview-2 .nivo-directionNav a.nivo-nextNav:hover:before {
+  background: #00c3ff;
+  color: #ffffff !important;
+}
+.slider-area.slider-area-2 .preview-2 .nivo-directionNav a.nivo-nextNav:before {
+  color: #ffffff !important;
+}
+.slider-area.slider-area-2 .slider-content.t-lfl.s-tb.slider-2 {
+  margin-left: 10%;
+}
+.slider-area.slider-area-2 .slider-1 h1 {
+  font-size: 72px;
+  color: #ffffff;
+  line-height: 1.55;
+  letter-spacing: 7px;
+  margin: 15px 0 0;
+  font-weight: 800;
+}
+.slider-area.slider-area-2 .slider-1 h1 span {
+  color: #00c3ff;
+}
+.slider-area.slider-area-2 .slider-1 div.title2 {
+  font-size: 15px;
+  color: #ffffff;
+  padding: 0%;
+  font-weight: normal;
+  line-height: 1.5;
+  letter-spacing: 6px;
+}
+.slider-area.slider-area-2 .slider-1 div.slider-botton {
+  display: block;
+  margin-top: 50px;
+}
+.slider-area.slider-area-2 .slider-1 div.slider-botton ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.slider-area.slider-area-2 .slider-1 div.slider-botton ul li.acitve a {
+  display: block;
+  padding: 17px 40px;
+  color: #ffffff;
+  transition: all 0.5s ease 0s;
+  background: #00c3ff;
+  border: 1px solid #00c3ff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.slider-area.slider-area-2 .slider-1 div.slider-botton ul li a {
+  display: block;
+  padding: 17px 40px;
+  color: #ffffff;
+  border: 1px solid #00c3ff;
+  transition: all 0.5s ease 0s;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.slider-area.slider-area-2 .slider-1 div.slider-botton ul li a:hover {
+  background: #00c3ff;
+}
+.slider-area.slider-area-2 .slider-2 h1 {
+  font-size: 72px;
+  color: #ffffff;
+  line-height: 1.55;
+  letter-spacing: 7px;
+  margin: 15px 0 0;
+  font-weight: 800;
+}
+.slider-area.slider-area-2 .slider-2 h1 span {
+  color: #00c3ff;
+}
+.slider-area.slider-area-2 .slider-2 div.title2 {
+  font-size: 15px;
+  color: #ffffff;
+  padding: 0%;
+  font-weight: normal;
+  line-height: 1.5;
+  letter-spacing: 6px;
+}
+.slider-area.slider-area-2 .slider-2 div.slider-botton {
+  display: block;
+  margin-top: 50px;
+}
+.slider-area.slider-area-2 .slider-2 div.slider-botton ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.slider-area.slider-area-2 .slider-2 div.slider-botton ul li:hover.acitve a {
+  background: #096b89;
+  border: 1px solid #096b89;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.slider-area.slider-area-2 .slider-2 div.slider-botton ul li.acitve a {
+  display: block;
+  padding: 17px 40px;
+  color: #ffffff;
+  transition: all 0.5s ease 0s;
+  background: #00c3ff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.slider-area.slider-area-2 .slider-2 div.slider-botton ul li a {
+  display: block;
+  padding: 17px 40px;
+  color: #ffffff;
+  border: 1px solid #00c3ff;
+  transition: all 0.5s ease 0s;
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.slider-area.slider-area-2 .slider-2 div.slider-botton ul li a:hover {
+  background: #00c3ff;
+}
+/* ....................................
+14.3 Sticky Header Start Here
+.......................................*/
+.header-two-area.stick {
+  background: rgba(255, 255, 255, 0.9);
+  position: fixed !important;
+  top: 0px;
+  z-index: 99;
+  margin: 0 auto !important;
+  padding: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #00c3ff;
+}
+/* ....................................
+14.4 Blog Area Start Here 
+.......................................*/
+.blog-area2 {
+  padding: 100px 0;
+}
+.blog-area2 .single-blog:hover .blog-image .overley {
+  opacity: 1;
+  transform: scale(1);
+}
+.blog-area2 .single-blog:hover .blog-image .overley .blog-link a i {
+  color: #00c3ff;
+}
+.blog-area2 .single-blog:hover .blog-details h3 a {
+  color: #00c3ff;
+}
+.blog-area2 .single-blog:hover .blog-details .blog-info ul li i {
+  color: #00c3ff;
+}
+.blog-area2 .single-blog:hover .blog-details .read-more a {
+  color: #00c3ff;
+}
+.blog-area2 .single-blog .blog-image {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.blog-area2 .single-blog .blog-image:hover .overley {
+  opacity: 1;
+  transform: scale(1);
+}
+.blog-area2 .single-blog .blog-image a {
+  display: block;
+}
+.blog-area2 .single-blog .blog-image a img {
+  width: 100%;
+}
+.blog-area2 .single-blog .blog-image .overley {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s ease 0s;
+  opacity: 0;
+  transform: scale(0);
+  background: rgba(0, 0, 0, 0.8);
+}
+.blog-area2 .single-blog .blog-image .overley .blog-link {
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.blog-area2 .single-blog .blog-image .overley .blog-link a {
+  display: block;
+}
+.blog-area2 .single-blog .blog-image .overley .blog-link a i {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  transition: all 0.5s ease 0s;
+}
+.blog-area2 .single-blog .blog-image .overley .blog-link a i:hover {
+  color: #00c3ff;
+}
+.blog-area2 .single-blog .blog-details h3 {
+  margin-bottom: 10px;
+}
+.blog-area2 .single-blog .blog-details h3 a {
+  color: #444444;
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.5s ease 0s;
+}
+.blog-area2 .single-blog .blog-details h3 a:hover {
+  color: #00c3ff;
+}
+.blog-area2 .single-blog .blog-details .blog-info {
+  margin-bottom: 20px;
+}
+.blog-area2 .single-blog .blog-details .blog-info ul {
+  text-align: left;
+}
+.blog-area2 .single-blog .blog-details .blog-info ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.blog-area2 .single-blog .blog-details .blog-info ul li i {
+  margin-right: 10px;
+}
+.blog-area2 .single-blog .blog-details p {
+  margin-bottom: 40px;
+}
+.blog-area2 .single-blog .blog-details .read-more {
+  display: inline-block;
+  position: relative;
+}
+.blog-area2 .single-blog .blog-details .read-more:after {
+  position: absolute;
+  content: "\f101";
+  top: 0;
+  right: -40px;
+  font-family: fontawesome;
+  width: 30px;
+  height: 30px;
+  color: #00c3ff;
+}
+.blog-area2 .single-blog .blog-details .read-more a {
+  color: #444444;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.5s ease 0s;
+}
+.blog-area2 .single-blog .blog-details .read-more a:hover {
+  color: #00c3ff;
+}
+/* ....................................
+15.5 Services Start Here 
+.......................................*/
+.service-area {
+  padding: 100px 0;
+}
+.service-area .single-service {
+  background: #f5f5f5;
+  padding: 30px;
+  position: relative;
+  text-align: center;
+}
+.service-area .single-service .services-icon {
+  margin-top: -70px;
+  margin-bottom: 30px;
+}
+.service-area .single-service .services-icon a {
+  background: #00c3ff;
+  border-radius: 50%;
+  display: block;
+  height: 100px;
+  line-height: 115px;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+  transition: all 0.5s ease 0s;
+  width: 100px;
+}
+.service-area .single-service .services-icon a i {
+  font-size: 36px;
+  color: #ffffff;
+}
+.service-area .single-service .services-icon a:hover {
+  background: #096b89;
+}
+.service-area .single-service h3 a {
+  color: #444444;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: all 0.5s ease 0s;
+}
+.service-area .single-service h3 a:hover {
+  color: #00c3ff;
+}
+/* ....................................
+15.6 Home Two about Us Area Start Here 
+.......................................*/
+.home2-about-us {
+  background: #f5f5f5;
+  min-height: 600px;
+  overflow: hidden;
+}
+.home2-about-us .about-us-image img {
+  width: 100%;
+  display: block;
+}
+.home2-about-us .about-content {
+  padding: 80px 400px 80px 0;
+}
+.home2-about-us .about-content h2 {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.home2-about-us .about-content h2 span {
+  color: #00c3ff;
+}
+.home2-about-us .about-content > span {
+  font-weight: 600;
+  color: #555555;
+  margin-bottom: 10px;
+  display: block;
+}
+.home2-about-us .about-content .see-more {
+  display: inline-block;
+}
+.home2-about-us .about-content .see-more a {
+  background: #00c3ff;
+  color: #ffffff;
+  display: block;
+  font-weight: 700;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  transition: all 0.5s ease 0s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.home2-about-us .about-content .see-more a:hover {
+  background: #096b89;
+}
+/* ....................................
+15.7 Portfolio Section Start Here 
+.......................................*/
+.portfolio-area.portfolio-area2 .single-portfolio:hover .overley {
+  opacity: 1;
+  transform: scale(1);
+}
+.portfolio-area.portfolio-area2 .single-portfolio .overley .portfolio-details h3 a:hover {
+  color: #00c3ff;
+}
+/* ....................................
+14.8. Counter Area Start Here 
+.......................................*/
+.counter-up-area {
+  padding: 100px 0;
+  background: url('images/counter.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.counter-up-area .ab-count .about-counter-list h1.about-counter {
+  color: #00c3ff;
+}
+.counter-up-area .ab-count .about-counter-list h1.about-counter:after {
+  background: #00c3ff;
+}
+/* ....................................
+14.9 Team Area Start Here 
+.......................................*/
+.team-area.team-area2 .single-team {
+  padding: 30px 0 0 0;
+  background: #f5f5f5;
+  min-height: 450px;
+  transition: all 0.5s ease 0s;
+  position: relative;
+  overflow: hidden;
+}
+.team-area.team-area2 .single-team:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #00c3ff;
+  top: -97%;
+  content: "";
+  -webkit-border-radius: 0 0 20px 20px;
+  -moz-border-radius: 0 0 20px 20px;
+  border-radius: 0 0 20px 20px;
+  transition: all .9s;
+}
+.team-area.team-area2 .single-team:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #00c3ff;
+  bottom: -97%;
+  content: "";
+  -webkit-border-radius: 20px 20px 0 0;
+  -moz-border-radius: 20px 20px 0 0;
+  border-radius: 20px 20px 0 0;
+  transition: all .9s;
+  opacity: 0;
+}
+.team-area.team-area2 .single-team:hover {
+  -webkit-box-shadow: -1px 0px 5px 4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: -1px 0px 5px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: -1px 0px 5px 4px rgba(0, 0, 0, 0.5);
+}
+.team-area.team-area2 .single-team:hover:before {
+  opacity: 0;
+}
+.team-area.team-area2 .single-team:hover:after {
+  opacity: 1;
+}
+.team-area.team-area2 .single-team .team-image a {
+  display: block;
+  height: 160px;
+  margin: auto;
+  text-align: center;
+  width: 160px;
+  margin-top: 50px;
+  overflow: hidden;
+  position: relative;
+}
+.team-area.team-area2 .single-team .team-image a:hover:after {
+  opacity: 1;
+  transform: scale(1);
+}
+.team-area.team-area2 .single-team .team-image a:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s ease 0s;
+  opacity: 0;
+  transform: scale(0);
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.team-area.team-area2 .single-team .team-image a img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: block;
+  width: 100%;
+}
+.team-area.team-area2 .single-team .team-details {
+  text-align: center;
+}
+.team-area.team-area2 .single-team .team-details h3 {
+  margin-bottom: 10px;
+}
+.team-area.team-area2 .single-team .team-details h3 a {
+  transition: all 0.5s ease 0s;
+  display: block;
+  color: #222222;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.team-area.team-area2 .single-team .team-details h3 a:hover {
+  color: #00c3ff;
+}
+.team-area.team-area2 .single-team .team-details span {
+  text-transform: uppercase;
+}
+.team-area.team-area2 .single-team .team-details .social-media {
+  margin-top: 30px;
+}
+.team-area.team-area2 .single-team .team-details .social-media ul {
+  text-align: center;
+}
+.team-area.team-area2 .single-team .team-details .social-media ul li {
+  display: inline-block;
+  margin: 1px 0;
+}
+.team-area.team-area2 .single-team .team-details .social-media ul li a {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  width: 30px;
+  transition: all 0.5s ease 0s;
+  color: #444444;
+  text-align: center;
+  margin: auto;
+  background: #ffffff;
+}
+.team-area.team-area2 .single-team .team-details .social-media ul li a:hover {
+  background: #00c3ff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  color: #ffffff;
+}
+/* ....................................
+14.10 Home Two Testimonial Area Start Here 
+.......................................*/
+.home2-testimonial-area {
+  padding: 100px 0;
+  background: url('images/testimonial/testimonial-bg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+.home2-testimonial-area .home2-testimonial {
+  text-align: center;
+}
+.home2-testimonial-area .home2-testimonial .single-testimonial {
+  padding: 0 30px;
+}
+.home2-testimonial-area .home2-testimonial .single-testimonial .image a {
+  display: block;
+  position: relative;
+}
+.home2-testimonial-area .home2-testimonial .single-testimonial .image a:after {
+  position: absolute;
+  left: 0px;
+  right: 0;
+  margin: auto;
+  color: #00c3ff;
+  height: 2px;
+  content: "\f0d7";
+  bottom: 39px;
+  width: 30px;
+  font-family: fontawesome;
+}
+.home2-testimonial-area .home2-testimonial .single-testimonial .image a img {
+  display: inline-block;
+  border: 2px solid #00c3ff;
+  margin-bottom: 30px;
+}
+.home2-testimonial-area .home2-testimonial .single-testimonial .details {
+  display: inline-block;
+  color: #ffffff;
+}
+.home2-testimonial-area .home2-testimonial .single-testimonial .details h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.home2-testimonial-area .home2-testimonial .single-testimonial .details p {
+  font-size: 14px;
+}
+.home2-testimonial-area .home2-testimonial .owl-controls .owl-pagination .owl-page.active span {
+  background: #00c3ff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+.home2-testimonial-area .home2-testimonial .owl-controls .owl-pagination .owl-page span {
+  background: #00c3ff;
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+/* ....................................
+15.Page Header Section breadcumb Start Here 
+.......................................*/
+.page-header-area {
+  background: rgba(0, 0, 0, 0) url("images/bennar.jpg") no-repeat scroll center center / cover;
+  text-align: left;
+  padding: 100px 0;
+}
+.page-header-area h1 {
+  font-size: 36px;
+  color: #000000;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+.page-header-area ul {
+  margin: 0;
+  padding: 0;
+}
+.page-header-area ul li {
+  display: inline-block;
+  border: 0px;
+  color: #000000;
+  margin: 0px 10px;
+  font-weight: 400;
+  position: relative;
+  text-transform: uppercase;
+}
+.page-header-area ul li:first-child:after {
+  position: absolute;
+  content: "\f101";
+  top: 0;
+  left: 50px;
+  right: 0;
+  display: block;
+  font-family: FontAwesome;
+}
+.page-header-area ul li.second:after {
+  position: absolute;
+  content: "\f101";
+  top: 0;
+  left: 50px;
+  right: 0;
+  display: block;
+  font-family: FontAwesome;
+}
+.page-header-area ul li:last-child {
+  color: #00c3ff;
+  margin-left: 15px;
+}
+.page-header-area ul li a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+}
+/* ....................................
+16.1 Our-skill-area start 
+.......................................*/
+.our-skill-area {
+  padding: 100px 0;
+  background: url(images/skill-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.our-skill-area h1 {
+  text-align: center;
+  color: #ffffff;
+}
+.our-skill-area .our-skill-area .section-heading {
+  margin-bottom: 70px;
+}
+.our-skill-area .our-skill-area .section-heading h1 {
+  color: #fff;
+  font-size: 45px;
+  line-height: 45px;
+  margin-bottom: 20px;
+}
+.our-skill-area .single-skill {
+  text-align: center;
+}
+.our-skill-area .single-skill h4 {
+  color: #fff;
+  font-size: 18px;
+  line-height: 16px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.our-skill-area .single-skill p {
+  color: #ffffff;
+  margin-bottom: 0;
+}
+/* ....................................
+16.2 About Page Start Here 
+.......................................*/
+.about-page-area {
+  padding: 100px 0;
+}
+.about-page-area .about-us-content h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.about-page-area .about-us-content .our-features-list .single-feature > a {
+  width: 50px;
+  height: 50px;
+  line-height: 55px;
+  background: #00c3ff;
+  display: block;
+  text-align: center;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  transition: all 0.5s ease 0s;
+}
+.about-page-area .about-us-content .our-features-list .single-feature > a:hover {
+  background: #096b89;
+}
+.about-page-area .about-us-content .our-features-list .single-feature > a i {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 24px;
+}
+.about-page-area .about-us-content .our-features-list .single-feature h3 {
+  margin-bottom: 10px;
+}
+.about-page-area .about-us-content .our-features-list .single-feature h3 a {
+  display: block;
+  transition: all 0.5s ease 0s;
+  color: #333333;
+  font-weight: 600;
+  font-size: 16px;
+}
+.about-page-area .about-us-content .our-features-list .single-feature h3 a:hover {
+  color: #00c3ff;
+}
+.about-page-area .about-us-image img {
+  width: 100%;
+  border: 1px solid #ffffff;
+  transition: all 0.5s ease 0s;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+.about-page-area .about-us-image img:hover {
+  border: 1px solid #00c3ff;
+}
+/* ....................................
+17.Services Page Start Here 
+.......................................*/
+.what-we-do-start-here {
+  padding: 100px 0;
+}
+.what-we-do-start-here .single-feature {
+  background: #f5f5f5;
+  text-align: center;
+  padding: 60px 10px;
+  transition: all 0.5s ease 0s;
+}
+.what-we-do-start-here .single-feature:hover {
+  background: #00c3ff;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+}
+.what-we-do-start-here .single-feature:hover h3 a {
+  color: #ffffff;
+}
+.what-we-do-start-here .single-feature:hover p {
+  color: #ffffff;
+}
+.what-we-do-start-here .single-feature h3 {
+  margin-bottom: 10px;
+}
+.what-we-do-start-here .single-feature h3 a {
+  display: block;
+  transition: all 0.5s ease 0s;
+  color: #222222;
+  font-weight: 600;
+  font-size: 18px;
+}
+.what-we-do-start-here .single-feature p {
+  margin: 0;
+}
+/* ....................................
+17.1 Main Services Area Start Here 
+.......................................*/
+.main-servires-area {
+  background: #f5f5f5;
+  overflow: hidden;
+  min-height: 490px;
+}
+.main-servires-area .main-services-content {
+  padding: 100px 0 0 100px;
+}
+.main-servires-area .main-services-content h2 {
+  position: relative;
+  margin-bottom: 40px;
+}
+.main-servires-area .main-services-content h2:after {
+  background: #00c3ff;
+  bottom: -15px;
+  content: "";
+  height: 3px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  width: 50px;
+}
+.main-servires-area .main-services-content p {
+  margin-bottom: 40px;
+}
+.main-servires-area .main-services-content .read-more {
+  display: inline-block;
+}
+.main-servires-area .main-services-content .read-more a {
+  background: #00c3ff;
+  border-radius: 5px;
+  color: #ffffff;
+  display: block;
+  padding: 7px 35px;
+  transition: all 0.5s ease 0s;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.main-servires-area .main-services-content .read-more a:hover {
+  background: #096b89;
+}
+.main-servires-area .main-services-image img {
+  width: 100%;
+}
+/* ....................................
+17.2 Price Table Start Here 
+.......................................*/
+.price-table-area {
+  padding: 100px 0;
+}
+.price-table-area .single-price-table {
+  background: #f5f5f5;
+  text-align: center;
+  color: #ffffff;
+}
+.price-table-area .single-price-table .price-title {
+  background: #00c3ff;
+  -webkit-border-radius: 0 0 80px 80px;
+  -moz-border-radius: 0 0 80px 80px;
+  border-radius: 0 0 80px 80px;
+}
+.price-table-area .single-price-table .price-title h3 {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 25px;
+  padding: 20px 0;
+  font-size: 24px;
+}
+.price-table-area .single-price-table .monthly-price h4 {
+  color: #000000;
+  font-size: 48px;
+  font-weight: 800;
+}
+.price-table-area .single-price-table .monthly-price h4 sup {
+  font-weight: 400;
+  font-size: 24px;
+}
+.price-table-area .single-price-table .monthly-price h4 span {
+  font-size: 14px;
+  font-weight: 400;
+}
+.price-table-area .single-price-table .price-list li {
+  color: #444444;
+  display: block;
+  padding: 10px;
+  border-top: 1px solid #eceaea;
+  font-size: 16px;
+}
+.price-table-area .single-price-table .signup {
+  display: inline-block;
+  margin: 30px 0;
+}
+.price-table-area .single-price-table .signup a {
+  display: block;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 60px;
+  border: 1px solid #cecece;
+  font-size: 16px;
+  font-weight: 600;
+  color: #444444;
+  transition: all 0.5s ease 0s;
+}
+.price-table-area .single-price-table .signup a:hover {
+  background: #00c3ff;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+  color: #ffffff;
+  border: 1px solid #00c3ff;
+}
+.price-table-area .single-price-table.active .signup a {
+  background: #00c3ff;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+  color: #ffffff;
+  border: 1px solid #00c3ff;
+}
+/* ....................................
+18.Single Servies Start Here 
+.......................................*/
+.single-services-area {
+  padding: 100px 0;
+}
+.single-services-area .services-content .main-single-service .service-image img {
+  width: 100%;
+  transition: all 0.5s ease 0s;
+  margin-bottom: 30px;
+}
+.single-services-area .services-content .main-single-service .service-image img:hover {
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+}
+.single-services-area .services-content .main-single-service h3 {
+  font-size: 18px;
+  position: relative;
+  margin-bottom: 40px;
+}
+.single-services-area .services-content .main-single-service h3:after {
+  background: #00c3ff;
+  bottom: -15px;
+  content: "";
+  height: 3px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  width: 100px;
+}
+.single-services-area .services-content .main-single-service p {
+  margin-bottom: 60px;
+}
+.single-services-area .services-content .main-single-service .benefit-business-planning ul li {
+  position: relative;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.single-services-area .services-content .main-single-service .benefit-business-planning ul li:after {
+  top: 0px;
+  content: "\f0c8";
+  height: 3px;
+  left: -20px;
+  margin: auto;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  font-family: fontawesome;
+  margin-right: 10px;
+  color: #444444;
+}
+.single-services-area .services-content .main-single-service .business-benefit-image img {
+  width: 100%;
+  transition: all 0.5s ease 0s;
+  margin-bottom: 30px;
+}
+.single-services-area .services-content .main-single-service .business-benefit-image img:hover {
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+}
+/* ....................................
+19.Sidebar Design Start Here 
+.......................................*/
+.sidebar-area .widget {
+  margin-bottom: 30px;
+}
+.sidebar-area .widget h2 {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 40px;
+}
+.sidebar-area .widget h2:after {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  content: "";
+  background: #00c3ff;
+  width: 60px;
+  height: 3px;
+}
+.sidebar-area .widget .services-tab ul {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  border: 0px;
+}
+.sidebar-area .widget .services-tab ul.nav.nav-tabs {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  border: 1px solid #e8e8e8;
+}
+.sidebar-area .widget .services-tab ul.nav.nav-tabs li {
+  display: block;
+  float: inherit;
+  border-top: 1px solid #e8e8e8;
+  background: transparent;
+  color: #444444;
+}
+.sidebar-area .widget .services-tab ul.nav.nav-tabs li:first-child {
+  border-top: 0px solid #ffffff;
+}
+.sidebar-area .widget .services-tab ul.nav.nav-tabs li.active {
+  background: transparent;
+  color: #444444;
+}
+.sidebar-area .widget .services-tab ul.nav.nav-tabs li.active a {
+  background: transparent;
+  color: #00c3ff;
+  border: 0px;
+}
+.sidebar-area .widget .services-tab ul.nav.nav-tabs li a {
+  display: block;
+  font-size: 16px;
+  color: #444444;
+  background: transparent;
+  border: 0px;
+}
+.sidebar-area .widget .services-tab ul.nav.nav-tabs li a:hover {
+  background: transparent;
+  color: #00c3ff;
+  border: 0px;
+}
+.sidebar-area .widget .recent-project ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sidebar-area .widget .recent-project ul li {
+  display: inline-block;
+}
+.sidebar-area .widget .recent-project ul li a {
+  display: block;
+  margin: -2px;
+  padding: 0;
+  width: 88px;
+  height: 88px;
+}
+.sidebar-area .widget .recent-project ul li a img {
+  transition: all 0.5s ease 0s;
+}
+.sidebar-area .widget .recent-project ul li a img:hover {
+  opacity: .9;
+  box-shadow: none;
+}
+.sidebar-area .widget.widget_categories ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.sidebar-area .widget.widget_categories ul li {
+  display: block;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ededed;
+}
+.sidebar-area .widget.widget_categories ul li:last-child {
+  border-bottom: 0px;
+}
+.sidebar-area .widget.widget_categories ul li a {
+  display: block;
+  text-decoration: none;
+  position: relative;
+  margin-left: 20px;
+  color: #444444;
+  font-size: 12px;
+  transition: all 0.5s ease 0s;
+  text-transform: uppercase;
+}
+.sidebar-area .widget.widget_categories ul li a:hover {
+  color: #00c3ff;
+}
+.sidebar-area .widget.widget_categories ul li a span.count {
+  float: right;
+}
+.sidebar-area .widget.widget_categories ul li a:after {
+  position: absolute;
+  left: -20px;
+  top: 0px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #00c3ff;
+  content: "\f105";
+  font-family: FontAwesome;
+}
+.sidebar-area .widget #slider-range {
+  margin-bottom: 15px;
+}
+.sidebar-area .widget .ui-widget-content {
+  background: #dddddd none repeat scroll 0 0;
+  border: 0 solid #a6c9e2;
+  color: #000000;
+  height: 4px;
+}
+.sidebar-area .widget .ui-slider-range.ui-widget-header.ui-corner-all {
+  background: #000000 none repeat scroll 0 0;
+  border: 0 none;
+  box-shadow: none;
+  height: 4px;
+}
+.sidebar-area .widget .ui-state-default,
+.sidebar-area .widget .ui-widget-content .ui-state-default,
+.sidebar-area .widget .ui-widget-header .ui-state-default {
+  background: #000000 none repeat scroll 0 0;
+  border: 0 solid #ffffff;
+  font-weight: 300;
+  margin: 0;
+  width: 5px;
+}
+.sidebar-area .widget .price-area label {
+  color: #444444;
+  font-weight: 300;
+  font-size: 13px;
+}
+.sidebar-area .widget .price-area input {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  border: 0px solid #ffffff;
+}
+.sidebar-area .widget .price-area a {
+  background: #00c3ff;
+  color: #ffffff;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 7px 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.5s ease 0s;
+  text-align: center;
+}
+.sidebar-area .widget .price-area a:hover {
+  background: #096b89;
+}
+.sidebar-area .widget .posted-date a {
+  color: #444444;
+  font-weight: 800;
+  transition: all 0.5s ease 0s;
+}
+.sidebar-area .widget .posted-date a:hover {
+  color: #00c3ff;
+}
+.sidebar-area .widget .price a {
+  color: #444444;
+  font-weight: 600;
+  transition: all 0.5s ease 0s;
+}
+.sidebar-area .widget .price a:hover {
+  color: #00c3ff;
+}
+.sidebar-area .widget .popular-tags ul li {
+  display: inline-block;
+  border: 1px solid #e1e1e1;
+  margin: 2px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.sidebar-area .widget .popular-tags ul li:hover {
+  border: 1px solid #00c3ff;
+  background: #00c3ff;
+}
+.sidebar-area .widget .popular-tags ul li:hover a {
+  color: #ffffff;
+}
+.sidebar-area .widget .popular-tags ul li a {
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
+  color: #6a6a6a;
+}
+.sidebar-area .widget .search-box {
+  height: 45px;
+  margin: 0;
+  padding: 0;
+  transition: all 0.5s ease 0s;
+}
+.sidebar-area .widget .search-box .search-form input.form-control {
+  border-radius: 0;
+  line-height: 2px;
+  width: 100%;
+}
+.sidebar-area .widget .search-box.show-box {
+  opacity: 1 !important;
+}
+/* ....................................
+19.Shop Page Start Here 
+.......................................*/
+.shop-page-area {
+  padding: 100px 0;
+}
+.shop-page-area .tobar-area {
+  overflow: hidden;
+}
+.shop-page-area .tobar-area .view-area ul.nav-tabs {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 0px;
+}
+.shop-page-area .tobar-area .view-area ul.nav-tabs li {
+  border: 0px;
+}
+.shop-page-area .tobar-area .view-area ul.nav-tabs li.active {
+  border: 0px;
+}
+.shop-page-area .tobar-area .view-area ul.nav-tabs li.active a {
+  border: 0px;
+}
+.shop-page-area .tobar-area .view-area ul.nav-tabs li.active a:hover {
+  background: transparent;
+  color: #00c3ff;
+}
+.shop-page-area .tobar-area .view-area ul.nav-tabs li a {
+  border: 0px;
+}
+.shop-page-area .tobar-area .view-area ul.nav-tabs li a:hover {
+  background: transparent;
+  color: #00c3ff;
+}
+.shop-page-area .tobar-area .showing-result ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.shop-page-area .tobar-area .showing-result ul li {
+  display: inline-block;
+  font-weight: 600;
+  color: #333333;
+  margin-right: 10px;
+  height: 25px;
+}
+.shop-page-area .tobar-area .showing-result ul li .form-group {
+  margin: 0;
+}
+.shop-page-area .tobar-area .showing-result ul li .form-group.seclect-box select.form-control {
+  display: inline-block;
+  border: 0;
+  background: transparent;
+  border-radius: 0px;
+}
+.shop-page-area .tab-content .tab-pane .single-product-area {
+  position: relative;
+  margin-top: 30px;
+}
+.shop-page-area .tab-content .tab-pane .single-product-area .product-image {
+  position: relative;
+  overflow: hidden;
+}
+.shop-page-area .tab-content .tab-pane .single-product-area .product-image:hover .overley {
+  opacity: 1;
+  top: 0;
+  transform: skew(0deg);
+  visibility: visible;
+}
+.shop-page-area .tab-content .tab-pane .single-product-area .product-image a {
+  display: block;
+}
+.shop-page-area .tab-content .tab-pane .single-product-area .product-image a img {
+  width: 100%;
+}
+.shop-page-area .tab-content .tab-pane .single-product-area .product-image .overley {
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  height: 100%;
+  left: 0;
+  margin: auto;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  transform: skew(0deg);
+  transition: all 0.9s ease 0s;
+  visibility: hidden;
+  width: 100%;
+}
+.shop-page-area .tab-content .tab-pane .single-product-area .product-image .overley .product-details {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 40%;
+  transform: translateY(-20px);
+  text-align: center;
+}
+.shop-page-area .tab-content .tab-pane .single-product-area .product-image .overley .product-details h3 {
+  position: relative;
+}
+.shop-page-area .tab-content .tab-pane .single-product-area .product-image .overley .product-details h3:after {
+  display: none;
+}
+.shop-page-area .tab-content .tab-pane .single-product-area .product-image .overley .product-details .product-info ul {
+  margin: 0 0 10px;
+  padding: 0;
+  position: relative;
+}
+.shop-page-area .tab-content .tab-pane .single-product-area .product-image .overley .product-details .product-info ul li {
+  display: inline-block;
+  margin: 0 3px;
+}
+.shop-page-area .tab-content .tab-pane .single-product-area .product-image .overley .product-details .product-info ul li a {
+  color: #000000;
+  height: 40px;
+  line-height: 40px;
+  margin: auto;
+  text-align: center;
+  transition: all 0.5s ease 0s;
+  width: 40px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+}
+.shop-page-area .tab-content .tab-pane .single-product-area .product-image .overley .product-details .product-info ul li a:hover {
+  background: #00c3ff;
+  border: 1px solid #00c3ff;
+  color: #ffffff;
+}
+.shop-page-area .tab-content .tab-pane .single-product-area .product-image .overley .product-details .product-title h3 {
+  margin-bottom: 5px;
+}
+.shop-page-area .tab-content .tab-pane .single-product-area .product-image .overley .product-details .product-title h3 a {
+  transition: all 0.5s ease 0s;
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.shop-page-area .tab-content .tab-pane .single-product-area .product-image .overley .product-details .product-title h3 a:hover {
+  color: #00c3ff;
+}
+.shop-page-area .tab-content .tab-pane .single-product-area .product-image .overley .product-details .product-price h3 {
+  margin-bottom: 0;
+  transition: all 0.5s ease 0s;
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.shop-page-area .tab-content .tab-pane .single-product-area .product-image .overley .product-details .product-price h3:hover {
+  color: #00c3ff;
+}
+.shop-page-area .product-list-view-area .list-single-product {
+  margin-top: 30px;
+}
+.shop-page-area .product-list-view-area .list-single-product .media a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin-right: 20px;
+}
+.shop-page-area .product-list-view-area .list-single-product .media a:hover:after {
+  opacity: 1;
+  top: 0;
+  transform: skew(0deg);
+  visibility: visible;
+}
+.shop-page-area .product-list-view-area .list-single-product .media a:after {
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+  height: 100%;
+  left: 0;
+  margin: auto;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  transform: skew(0deg);
+  transition: all 0.9s ease 0s;
+  visibility: hidden;
+  width: 100%;
+  content: "";
+  margin-right: 10px;
+}
+.shop-page-area .product-list-view-area .list-single-product .media a img {
+  width: 100%;
+}
+.shop-page-area .product-list-view-area .list-single-product .media .media-body h4.media-heading {
+  margin-bottom: 30px;
+  position: relative;
+}
+.shop-page-area .product-list-view-area .list-single-product .media .media-body h4.media-heading:after {
+  background: #00c3ff;
+  bottom: -10px;
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  width: 100px;
+}
+.shop-page-area .product-list-view-area .list-single-product .media .media-body h4.media-heading a {
+  transition: all 0.5s ease 0s;
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.shop-page-area .product-list-view-area .list-single-product .media .media-body h4.media-heading a:after {
+  display: none;
+}
+.shop-page-area .product-list-view-area .list-single-product .media .media-body h4.media-heading a:hover {
+  color: #00c3ff;
+}
+.shop-page-area .product-list-view-area .list-single-product .media .media-body p {
+  margin-bottom: 10px;
+}
+.shop-page-area .product-list-view-area .list-single-product .media .media-body .read-more {
+  margin-top: 20px;
+  display: inline-block;
+}
+.shop-page-area .product-list-view-area .list-single-product .media .media-body .read-more a {
+  background: #00c3ff;
+  border-radius: 5px;
+  color: #ffffff;
+  display: block;
+  font-weight: 700;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  transition: all 0.5s ease 0s;
+}
+.shop-page-area .product-list-view-area .list-single-product .media .media-body .read-more a:after {
+  display: none;
+}
+.shop-page-area .product-list-view-area .list-single-product .media .media-body .read-more a:hover {
+  background: #096b89;
+}
+/* ====================================
+20. Pagination Area Start Here 
+=======================================*/
+.pagination-area {
+  padding-top: 30px;
+}
+.pagination-area ul {
+  text-align: center;
+}
+.pagination-area ul li {
+  display: inline-block;
+}
+.pagination-area ul li.active a {
+  background: #00c3ff;
+  color: #ffffff;
+}
+.pagination-area ul li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: transparent;
+  border: 1px solid #00c3ff;
+  color: #000000;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.5s ease 0s;
+  text-align: center;
+}
+.pagination-area ul li a:hover {
+  background: #00c3ff;
+  color: #ffffff;
+}
+/* ....................................
+21. Single Product Start Here 
+.......................................*/
+.single-product-area .tab-content .product-picture a img {
+  width: 100%;
+}
+.single-product-area .tab-content .product-picture a img:hover {
+  opacity: .7;
+}
+.single-product-area .single-product-tab {
+  margin: 10px 0 0;
+  border: 0px;
+  overflow: hidden;
+}
+.single-product-area .single-product-tab:hover .owl-buttons {
+  opacity: 1;
+}
+.single-product-area .single-product-tab .tab-image {
+  border: 0px;
+  text-align: center;
+}
+.single-product-area .single-product-tab .tab-image li {
+  display: inline-block;
+  border: 0;
+}
+.single-product-area .single-product-tab .tab-image li a {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.single-product-area .single-product-tab .tab-image li a img {
+  width: 100%;
+}
+.single-product-area .single-product-tab .tab-image li a img:hover {
+  opacity: .7;
+}
+.single-product-area .single-product-tab .owl-buttons {
+  opacity: 0;
+}
+.single-product-area .single-product-tab .owl-buttons .owl-prev {
+  left: -5px;
+  position: absolute;
+  top: 28%;
+  background: #00c3ff !important;
+  width: 30px;
+  height: 30px;
+  border-radius: 0 !important;
+  opacity: 1!important;
+}
+.single-product-area .single-product-tab .owl-buttons .owl-prev i {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+}
+.single-product-area .single-product-tab .owl-buttons .owl-next {
+  right: -5px;
+  position: absolute;
+  top: 28%;
+  background: #00c3ff !important;
+  width: 30px;
+  height: 30px;
+  border-radius: 0 !important;
+  opacity: 1!important;
+}
+.single-product-area .single-product-tab .owl-buttons .owl-next i {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+}
+.single-product-area #product-1 a {
+  display: none;
+}
+.single-product-area #product-1 a.active {
+  display: block;
+}
+.single-product-area .product-details h3 {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+  text-transform: uppercase;
+}
+.single-product-area .product-details h3:after {
+  background: #00c3ff;
+  bottom: -20px;
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  width: 60px;
+}
+.single-product-area .product-details .product-rating-area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.single-product-area .product-details .product-rating-area ul li {
+  display: inline-block;
+  margin-right: 0;
+  color: #444444;
+  font-size: 14px;
+}
+.single-product-area .product-details .product-rating-area ul li i:hover {
+  color: #FFCE44;
+}
+.single-product-area .product-details .product-quantity {
+  margin-bottom: 30px;
+}
+.single-product-area .product-details .price {
+  margin-bottom: 30px;
+}
+.single-product-area .product-details .price span {
+  color: #444444;
+  font-weight: 600;
+}
+.single-product-area .product-details .product-cart-area {
+  margin-bottom: 30px;
+}
+.single-product-area .product-details .product-cart-area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+.single-product-area .product-details .product-cart-area ul li {
+  display: inline-block;
+  margin: 0 3px;
+}
+.single-product-area .product-details .product-cart-area ul li a {
+  background: transparent;
+  border: 1px solid #000000;
+  color: #000000;
+  height: 40px;
+  line-height: 40px;
+  margin: auto;
+  text-align: center;
+  transition: all 0.5s ease 0s;
+  width: 40px;
+  display: block;
+}
+.single-product-area .product-details .product-cart-area ul li a:hover {
+  background: #00c3ff;
+  border: 1px solid #00c3ff;
+  color: #ffffff;
+  -webkit-box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
+  -webkit-transform: translate(0, -5px) rotate(0.01deg);
+  -o-transform: translate(0, -5px) rotate(0.01deg);
+  -ms-transform: translate(0, -5px) rotate(0.01deg);
+  transform: translate(0, -5px) rotate(0.01deg);
+  -webkit-transition: box-shadow 0.3s ease 0s, transform 0.3s ease 0s;
+  -moz-transition: box-shadow 0.3s ease 0s, transform 0.3s ease 0s;
+  -o-transition: box-shadow 0.3s ease 0s, transform 0.3s ease 0s;
+  transition: box-shadow 0.3s ease 0s, transform 0.3s ease 0s;
+}
+.single-product-area .add-cart {
+  display: inline-block;
+  margin-top: 10px;
+}
+.single-product-area .add-cart a {
+  background: #00c3ff;
+  color: #ffffff;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 7px 50px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.5s ease 0s;
+}
+.single-product-area .add-cart a:hover {
+  background: #096b89;
+}
+.product-description ul {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  border: 0px;
+}
+.product-description ul.nav.nav-tabs {
+  margin: 0 0 30px;
+  padding: 0;
+  text-align: left;
+}
+.product-description ul.nav.nav-tabs li {
+  display: inline-block;
+  float: inherit;
+  border: 0px;
+  background: transparent;
+  color: #444444;
+}
+.product-description ul.nav.nav-tabs li:last-child a:after {
+  display: none;
+}
+.product-description ul.nav.nav-tabs li.active {
+  background: transparent;
+  color: #00c3ff;
+  border: 0px;
+}
+.product-description ul.nav.nav-tabs li.active a {
+  background: transparent;
+  color: #00c3ff;
+  border: 0px;
+}
+.product-description ul.nav.nav-tabs li a {
+  display: block;
+  text-align: left;
+  font-size: 16px;
+  color: #444444;
+  background: transparent;
+  border: 0px;
+}
+.product-description ul.nav.nav-tabs li a:hover {
+  background: transparent;
+  color: #00c3ff;
+  border: 0px;
+}
+.product-description .tab-content {
+  border: 1px solid #ededed;
+  padding: 30px;
+}
+.product-description .tab-content .product-rating-area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.product-description .tab-content .product-rating-area ul li {
+  display: inline-block;
+  margin-right: 0;
+  color: #444444;
+  font-size: 14px;
+}
+.product-description .tab-content .product-rating-area ul li i:hover {
+  color: #FFCE44;
+}
+.related-product-area h3 {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.related-product-area h3:after {
+  background: #00c3ff;
+  bottom: -20px;
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  width: 60px;
+}
+.related-product-area .single-product-area {
+  margin: 15px;
+}
+.related-product-area .single-product-store:after {
+  background: #e1e1e1 none repeat scroll 0 0;
+  content: "";
+  height: 2px;
+  left: 45%;
+  margin: auto;
+  position: absolute;
+  top: -39px;
+  width: 40%;
+}
+.related-product-area .single-product-store .product-content {
+  margin: 20px 0 0;
+}
+.related-product-area .single-product-store .product-content h3 {
+  margin: 0px;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+}
+.related-product-area .single-product-store .product-content h3:after {
+  display: none;
+}
+.related-product-area .single-product-store .product-content h3 a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  transition: all 0.5s ease 0s;
+}
+.related-product-area .single-product-store .product-content h3 a:hover {
+  color: #00c3ff;
+}
+.related-product-area .single-product-store .product-content ul li {
+  display: inline-block;
+}
+.related-product-area .single-product-store .product-content ul li i {
+  font-size: 14px;
+  color: #f7c51d;
+}
+.related-product-area .single-product-store .product-content p {
+  font-weight: bold;
+  color: #00c3ff;
+}
+.related-product-area .single-product-store .single-product {
+  position: relative;
+  overflow: hidden;
+}
+.related-product-area .single-product-store .single-product img {
+  width: 100%;
+}
+.related-product-area .single-product-store .single-product:hover img {
+  transform: scale(1.03);
+  width: 100%;
+}
+.related-product-area .single-product-store .single-product:hover .shop-overley {
+  opacity: 1;
+  transform: scaleY(1);
+}
+.related-product-area .single-product-store .single-product a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.related-product-area .single-product-store .single-product .shop-overley {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  transition: all 0.5s ease 0s;
+  opacity: 0;
+  overflow: hidden;
+  transform: scaleY(0);
+  transform-origin: 0 0 1;
+}
+.related-product-area .single-product-store .single-product .shop-overley .social-media-area {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 40%;
+  bottom: 0;
+}
+.related-product-area .single-product-store .single-product .shop-overley .social-media-area ul {
+  text-align: center;
+}
+.related-product-area .single-product-store .single-product .shop-overley .social-media-area ul li {
+  display: inline-block;
+  margin: 5px;
+}
+.related-product-area .single-product-store .single-product .shop-overley .social-media-area ul li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+  background: #ffffff;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  transition: all 0.5s ease 0s;
+}
+.related-product-area .single-product-store .single-product .shop-overley .social-media-area ul li a:hover {
+  background: #00c3ff;
+  color: #ffffff;
+}
+.related-product-area .single-product-store .owl-buttons {
+  right: 10px;
+  position: absolute;
+  top: -60px;
+}
+.related-product-area .single-product-store .owl-buttons div {
+  background: #00c3ff;
+  width: 35px;
+  height: 35px;
+  border-radius: 0 ;
+  opacity: 1;
+  margin: 2px ;
+}
+.related-product-area .single-product-store .owl-buttons div:hover {
+  background: #000000;
+}
+.related-product-area .single-product-store .owl-buttons div i {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+/* ....................................
+22.Single Team Member Start Here 
+.......................................*/
+.team-member-area {
+  padding: 100px 0;
+}
+.team-member-area .total-teams .single-teams .media a.pull-left {
+  margin-right: 30px;
+  overflow: hidden;
+  position: relative;
+  padding-right: 0;
+}
+.team-member-area .total-teams .single-teams .media a.pull-left:hover {
+  -webkit-box-shadow: 0px 25px 30px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 25px 30px 0px rgba(0, 0, 0, 0.15);
+  -webkit-transform: translate(0, -5px) rotate(0.01deg);
+  -o-transform: translate(0, -5px) rotate(0.01deg);
+  -ms-transform: translate(0, -5px) rotate(0.01deg);
+  transform: translate(0, -5px) rotate(0.01deg);
+  -webkit-transition: box-shadow 0.3s ease 0s, transform 0.3s ease 0s;
+  -moz-transition: box-shadow 0.3s ease 0s, transform 0.3s ease 0s;
+  -o-transition: box-shadow 0.3s ease 0s, transform 0.3s ease 0s;
+  transition: box-shadow 0.3s ease 0s, transform 0.3s ease 0s;
+}
+.team-member-area .total-teams .single-teams .media a.pull-left img {
+  width: 100%;
+}
+.team-member-area .total-teams .single-teams .media a.pull-left:hover:after {
+  opacity: 1;
+}
+.team-member-area .total-teams .single-teams .media a.pull-left:after {
+  background: rgba(0, 0, 0, 0.7);
+  content: "";
+  height: 100%;
+  left: 0%;
+  opacity: 0;
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  transition: all 0.5s ease 0s;
+}
+.team-member-area .total-teams .single-teams .media .media-body {
+  margin: 0;
+  padding: 0;
+}
+.team-member-area .total-teams .single-teams .media .media-body h4.media-heading {
+  margin-bottom: 20px;
+}
+.team-member-area .total-teams .single-teams .media .media-body h4.media-heading a {
+  font-weight: 500;
+  font-size: 18px;
+  color: #444444;
+  transition: all 0.5s ease 0s;
+  position: relative;
+}
+.team-member-area .total-teams .single-teams .media .media-body h4.media-heading a:hover {
+  color: #00c3ff;
+}
+.team-member-area .total-teams .single-teams .media .media-body h4.media-heading a:before {
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 60px;
+  content: "";
+  background: #00c3ff;
+  top: 30px;
+}
+.team-member-area .total-teams .single-teams .media .media-body span {
+  margin-bottom: 10px;
+  display: block;
+}
+.team-member-area .total-teams .single-teams .media .media-body p {
+  margin-bottom: 10px;
+}
+.team-member-area .total-teams .single-teams .media .media-body .see-button {
+  display: inline-block;
+}
+.team-member-area .total-teams .single-teams .media .media-body .see-button a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444444;
+  transition: all 0.5s ease 0s;
+  margin-bottom: 30px;
+  display: block;
+  position: relative;
+  margin-right: -10px;
+}
+.team-member-area .total-teams .single-teams .media .media-body .see-button a:before {
+  position: absolute;
+  right: -30px;
+  top: 0;
+  content: "\f101";
+  font-family: fontawesome;
+  width: 20px;
+  height: 20px;
+}
+.team-member-area .total-teams .single-teams .media .media-body .see-button a:hover {
+  color: #00c3ff;
+}
+.team-member-area .total-teams .single-teams .media .media-body .social-media ul {
+  float: left;
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  margin-top: -10px !important;
+  display: block;
+}
+.team-member-area .total-teams .single-teams .media .media-body .social-media ul li {
+  display: inline-block;
+  margin: 0 3px;
+}
+.team-member-area .total-teams .single-teams .media .media-body .social-media ul li a {
+  color: #000000;
+  border: 1px solid #000000;
+  height: 40px;
+  line-height: 40px;
+  margin: auto;
+  text-align: center;
+  transition: all 0.5s ease 0s;
+  width: 40px;
+  display: block;
+}
+.team-member-area .total-teams .single-teams .media .media-body .social-media ul li a:hover {
+  background: #00c3ff;
+  border: 1px solid #00c3ff;
+  color: #ffffff;
+}
+.team-member-area .total-teams .owl-controls .owl-pagination .owl-page.active span {
+  background: #00c3ff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+.team-member-area .total-teams .owl-controls .owl-pagination .owl-page span {
+  background: #00c3ff;
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+/* ....................................
+23.Portfolio One Start Here 
+.......................................*/
+#Container .mix {
+  display: none;
+}
+.portfolio-one-area {
+  padding: 100px 0;
+}
+.portfolio-one-area .portfolio-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #cccccc;
+}
+.portfolio-one-area .portfolio-menu ul li {
+  display: inline-block;
+  padding: 7px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.5s ease 0s;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid #cccccc;
+}
+.portfolio-one-area .portfolio-menu ul li:hover {
+  color: #00c3ff;
+}
+.portfolio-one-area .portfolio-menu ul li:hover:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 50px;
+  height: 1px;
+  content: "";
+  background: #00c3ff;
+  bottom: 0;
+  margin: auto;
+}
+.portfolio-one-area .portfolio-menu ul li.active {
+  position: relative;
+  color: #00c3ff;
+}
+.portfolio-one-area .portfolio-menu ul li.active:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 50px;
+  height: 1px;
+  content: "";
+  background: #00c3ff;
+  bottom: 0;
+  margin: auto;
+}
+.portfolio-one-area .single-portfolio {
+  position: relative;
+  margin: 15px 0;
+  overflow: hidden;
+}
+.portfolio-one-area .single-portfolio:hover .overley {
+  opacity: 1;
+  transform: scale(1);
+}
+.portfolio-one-area .single-portfolio .portfolio-image {
+  overflow: hidden;
+  position: relative;
+  height: 250px;
+}
+.portfolio-one-area .single-portfolio .portfolio-image a {
+  display: block;
+}
+.portfolio-one-area .single-portfolio .portfolio-image a img {
+  width: 100%;
+  min-height: 250px;
+}
+.portfolio-one-area .single-portfolio .overley {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s ease 0s;
+  opacity: 0;
+  transform: scale(0);
+  background: rgba(0, 0, 0, 0.8);
+}
+.portfolio-one-area .single-portfolio .overley .portfolio-details {
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.portfolio-one-area .single-portfolio .overley .portfolio-details h3 {
+  margin-bottom: 0px;
+}
+.portfolio-one-area .single-portfolio .overley .portfolio-details h3 a {
+  transition: all 0.5s ease 0s;
+  display: block;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.portfolio-one-area .single-portfolio .overley .portfolio-details h3 a:hover {
+  color: #00c3ff;
+}
+.portfolio-one-area .single-portfolio .overley .portfolio-details span {
+  color: #ffffff;
+  margin-bottom: 0;
+}
+/* ....................................
+24.Portfolio Details Start Here
+.......................................*/
+.portfolio-details-area {
+  padding: 100px 0;
+}
+.portfolio-details-area .portfolio-image img {
+  width: 100%;
+}
+.portfolio-details-area .portfolio-image img:hover {
+  opacity: .9;
+}
+.portfolio-details-area .portfolio-informations h3 {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  transition: all 0.5s ease 0s;
+}
+.portfolio-details-area .portfolio-informations h3:after {
+  background: #00c3ff;
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  top: 30px;
+  width: 60px;
+}
+.portfolio-details-area .portfolio-informations ul li {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.portfolio-details-area .portfolio-informations ul li span {
+  float: right;
+}
+.portfolio-details-area .portfolio-informations .visit-project {
+  display: inline-block;
+  margin: 30px 0;
+}
+.portfolio-details-area .portfolio-informations .visit-project a {
+  background: #00c3ff;
+  border: 1px solid #00c3ff;
+  color: #ffffff;
+  border-radius: 5px;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 60px;
+  transition: all 0.5s ease 0s;
+}
+.portfolio-details-area .portfolio-informations .visit-project a:hover {
+  background: #096b89;
+  border: 1px solid #096b89;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.5);
+}
+.portfolio-details-area .project-description h3 {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  transition: all 0.5s ease 0s;
+}
+.portfolio-details-area .project-description h3:after {
+  background: #00c3ff;
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  top: 30px;
+  width: 60px;
+}
+.portfolio-details-area .related-project h3 {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  transition: all 0.5s ease 0s;
+}
+.portfolio-details-area .related-project h3:after {
+  background: #00c3ff;
+  content: "";
+  height: 3px;
+  left: 0;
+  position: absolute;
+  top: 30px;
+  width: 60px;
+}
+.portfolio-details-area .related-project .single-portfolio {
+  position: relative;
+  margin: 3px;
+  overflow: hidden;
+}
+.portfolio-details-area .related-project .single-portfolio:hover .overley {
+  opacity: 1;
+  transform: scale(1);
+}
+.portfolio-details-area .related-project .single-portfolio .portfolio-image {
+  overflow: hidden;
+  position: relative;
+  height: 250px;
+}
+.portfolio-details-area .related-project .single-portfolio .portfolio-image a {
+  display: block;
+}
+.portfolio-details-area .related-project .single-portfolio .portfolio-image a img {
+  width: 100%;
+  min-height: 250px;
+}
+.portfolio-details-area .related-project .single-portfolio .overley {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s ease 0s;
+  opacity: 0;
+  transform: scale(0);
+  background: rgba(0, 0, 0, 0.8);
+}
+.portfolio-details-area .related-project .single-portfolio .overley .portfolio-details {
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.portfolio-details-area .related-project .single-portfolio .overley .portfolio-details h3 {
+  margin-bottom: 0px;
+}
+.portfolio-details-area .related-project .single-portfolio .overley .portfolio-details h3:after {
+  display: none;
+}
+.portfolio-details-area .related-project .single-portfolio .overley .portfolio-details h3 a {
+  transition: all 0.5s ease 0s;
+  display: block;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+}
+.portfolio-details-area .related-project .single-portfolio .overley .portfolio-details h3 a:hover {
+  color: #00c3ff;
+}
+.portfolio-details-area .related-project .single-portfolio .overley .portfolio-details span {
+  color: #ffffff;
+  margin-bottom: 0;
+}
+/* ....................................
+25. Single Blog Area Start Here 
+.......................................*/
+.single-blog-area .comments-area h3 {
+  font-size: 16px;
+  color: #161616;
+  margin-bottom: 30px;
+  position: relative;
+}
+.single-blog-area .comments-area h3:after {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background: #00c3ff;
+  height: 2px;
+  content: "";
+  width: 60px;
+}
+.single-blog-area .comments-area .single-comments-box {
+  position: relative;
+}
+.single-blog-area .comments-area .single-comments-box.second-comments {
+  margin-left: 100px;
+}
+.single-blog-area .comments-area .single-comments-box .reply {
+  float: right;
+  background: #00c3ff;
+  padding: 5px 20px;
+  color: #ffffff;
+}
+/* ....................................
+26.Error Page Start Here 
+.......................................*/
+.error-page-area {
+  padding: 100px 0;
+}
+.error-page-area img {
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 60px;
+}
+.error-page-area h3 {
+  color: #444444;
+  margin-bottom: 60px;
+}
+.error-page-area h3 span {
+  font-weight: 800;
+  color: #000000;
+  font-size: 36px;
+  margin-right: 20px;
+}
+.error-page-area .go-back {
+  display: inline-block;
+  margin: 0;
+}
+.error-page-area .go-back a {
+  background: #00c3ff;
+  border: 1px solid #00c3ff;
+  border-radius: 5px;
+  color: #ffffff;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 60px;
+  transition: all 0.5s ease 0s;
+}
+.error-page-area .go-back a:hover {
+  background: #096b89;
+  border: 1px solid #096b89;
+  box-shadow: 0 5px 5px 0 rgba(50, 50, 50, 0.5);
+}
+/* ....................................
+27.Contact Page Start Here 
+.......................................*/
+.contact-page-area {
+  padding: 100px 0;
+}
+.contact-page-area .contact-informations h3 {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #161616;
+  margin-bottom: 30px;
+  position: relative;
+}
+.contact-page-area .contact-informations h3:after {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background: #00c3ff;
+  height: 2px;
+  content: "";
+  width: 60px;
+}
+.contact-page-area .contact-informations ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.contact-page-area .contact-informations ul li {
+  display: block;
+  margin-bottom: 10px;
+}
+.contact-page-area .contact-informations ul li i {
+  font-size: 16px;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #cccccc;
+}
+.contact-page-area .contact-form {
+  padding: 0px;
+}
+.contact-page-area .contact-form h3 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+  position: relative;
+}
+.contact-page-area .contact-form h3:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 40px;
+  display: block;
+  background: #00c3ff;
+  width: 50px;
+  height: 3px;
+}
+.contact-page-area .contact-form .main-contact-form {
+  margin-left: -20px;
+  padding-top: 20px;
+}
+.contact-page-area .contact-form .main-contact-form fieldset {
+  margin-top: 20px;
+}
+.contact-page-area .contact-form .main-contact-form fieldset input {
+  background: #dddddd none repeat scroll 0 0;
+  border-radius: 0;
+  height: 45px;
+  margin-right: 20px;
+}
+.contact-page-area .contact-form .main-contact-form fieldset input:focus {
+  border: 0px;
+  box-shadow: none;
+}
+.contact-page-area .contact-form .main-contact-form fieldset textarea {
+  background: #dddddd none repeat scroll 0 0;
+  border-radius: 0;
+  margin-right: 20px;
+}
+.contact-page-area .contact-form .main-contact-form fieldset textarea:focus {
+  border: 0px;
+  box-shadow: none;
+}
+.contact-page-area .contact-form .main-contact-form fieldset .btn-send {
+  background: #00c3ff;
+  border: 0 none;
+  color: #ffffff;
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px 45px;
+  text-transform: uppercase;
+  transition: all 0.5s ease 0s;
+}
+.contact-page-area .contact-form .main-contact-form fieldset .btn-send:hover {
+  background: #096b89;
+}
+.contact-page-area .gmap-area {
+  height: 500px;
+  width: 100%;
+}
+/*--------------------  
+//28.cart page area section
+--------------------*/
+.cart-page-area {
+  padding: 100px 0;
+  overflow: hidden;
+}
+.cart-page-area .notice p {
+  background: #00c3ff;
+  color: #ffffff;
+}
+.cart-page-area .table {
+  border: 1px solid #ecf0f1;
+}
+.cart-page-area .table thead {
+  background: #ecf0f1;
+}
+.cart-page-area .table thead tr th {
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  color: #000000 !important;
+  text-transform: uppercase;
+  padding: 30px 20px !important;
+  font-family: 'Raleway', sans-serif;
+}
+.cart-page-area .table tbody tr td {
+  padding: 15px 15px !important;
+  vertical-align: middle;
+  color: #000;
+}
+.cart-page-area .table tbody tr td.cart-product {
+  width: 350px;
+  max-width: 100%;
+}
+.cart-page-area .table tbody tr td.cart-quantity {
+  width: 320px;
+  max-width: 100%;
+}
+.cart-page-area .table tbody tr td img {
+  display: inline-block;
+}
+.cart-page-area .table tbody tr td a {
+  margin: 0 15px;
+  display: inline-block;
+  color: #000;
+  transition: all 0.5s ease 0s;
+}
+.cart-page-area .table tbody tr td a:hover {
+  color: #00c3ff;
+}
+.cart-page-area .table tbody tr td i {
+  color: #00c3ff;
+}
+.cart-page-area .cart-button-area {
+  border: 1px solid #eeeeee;
+  padding: 15px;
+}
+.cart-page-area .cart-button-area .form-inline .form-group input {
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #aaaaaa;
+  box-shadow: none;
+}
+.cart-page-area .cart-button-area .form-inline .btn-primary {
+  height: 50px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: none;
+  line-height: 33px;
+  background: #00c3ff;
+}
+.cart-page-area .cart-button-area .form-inline .question {
+  margin-left: 10px;
+}
+.cart-page-area .cart-button-area .form-inline .question i {
+  font-size: 20px;
+}
+.cart-page-area .cart-button-area .form-inline .update {
+  height: 50px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: none;
+  border: 1px solid #aaaaaa;
+  transition: all 0.5s ease 0s;
+  padding: 15px 30px;
+}
+.cart-page-area .cart-button-area .form-inline .update:hover {
+  background: #00c3ff;
+  color: #ffffff;
+  border: 1px solid #00c3ff;
+}
+.cart-page-area .cart-button-area .form-inline .checkout {
+  height: 50px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: none;
+  background: #000;
+  color: #ffffff;
+  transition: all 0.5s ease 0s;
+  border: 1px solid #000000;
+  padding: 15px 30px;
+}
+.cart-page-area .cart-button-area .form-inline .checkout:hover {
+  background: #00c3ff;
+  color: #ffffff;
+  border: 1px solid #00c3ff;
+}
+.cart-page-area .calculate-area {
+  overflow: hidden;
+  padding: 60px 0;
+}
+.cart-page-area .calculate-area .calculate-shipping h3,
+.cart-page-area .calculate-area .cart-total h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  margin-right: 15px;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 0 20px;
+}
+.cart-page-area .calculate-area .calculate-shipping h3 i,
+.cart-page-area .calculate-area .cart-total h3 i {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #ffffff;
+  border-radius: 3px;
+  background: #00c3ff;
+  text-align: center;
+}
+.cart-page-area .calculate-area .calculate-shipping .nice-select,
+.cart-page-area .calculate-area .cart-total .nice-select {
+  width: 100%;
+  line-height: 1.5;
+}
+.cart-page-area .calculate-area .calculate-shipping .nice-select .list,
+.cart-page-area .calculate-area .cart-total .nice-select .list {
+  width: 100%;
+}
+.cart-page-area .calculate-area .calculate-shipping form .send,
+.cart-page-area .calculate-area .cart-total form .send {
+  margin-top: 0px;
+  font-size: 14px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: none;
+  color: #ffffff;
+  transition: all 0.5s ease 0s;
+  border: 1px solid #333;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 160px;
+  text-align: center;
+  background: #333;
+  height: 50px;
+  line-height: 37px;
+}
+.cart-page-area .calculate-area .calculate-shipping form .send:hover,
+.cart-page-area .calculate-area .cart-total form .send:hover {
+  background: #00c3ff;
+  color: #ffffff;
+  border: 1px solid #00c3ff;
+}
+.cart-page-area .calculate-area .calculate-shipping form select,
+.cart-page-area .calculate-area .cart-total form select,
+.cart-page-area .calculate-area .calculate-shipping form input,
+.cart-page-area .calculate-area .cart-total form input {
+  height: 40px;
+  border-radius: 3px;
+  margin: 13px 0;
+}
+.cart-page-area .calculate-area .calculate-shipping table,
+.cart-page-area .calculate-area .cart-total table {
+  display: table;
+}
+.cart-page-area .calculate-area .calculate-shipping table tr td,
+.cart-page-area .calculate-area .cart-total table tr td {
+  vertical-align: middle;
+}
+.cart-page-area .calculate-area .calculate-shipping table tr td:first-child,
+.cart-page-area .calculate-area .cart-total table tr td:first-child {
+  background: #eeeeee !important;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+/*--------------------  
+//29.checkout page area section
+--------------------*/
+.checkout-page-area {
+  padding: 100px 0;
+}
+.checkout-page-area .notice p {
+  padding: 10px;
+  background: #00c3ff;
+  border-radius: 3px;
+  color: #ffffff;
+}
+.checkout-page-area .notice p span {
+  color: #000;
+  margin-right: 10px;
+}
+.checkout-page-area .notice p i {
+  color: #ffffff;
+  margin-right: 10px;
+}
+.checkout-page-area .billing-details,
+.checkout-page-area .different-address {
+  margin-top: 30px;
+}
+.checkout-page-area .billing-details h3,
+.checkout-page-area .different-address h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  margin-right: 15px;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 0 20px;
+}
+.checkout-page-area .billing-details h3 i,
+.checkout-page-area .different-address h3 i {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #ffffff;
+  border-radius: 3px;
+  background: #00c3ff;
+  text-align: center;
+}
+.checkout-page-area .billing-details .nice-select,
+.checkout-page-area .different-address .nice-select {
+  width: 100%;
+  line-height: 1.5;
+}
+.checkout-page-area .billing-details .nice-select .list,
+.checkout-page-area .different-address .nice-select .list {
+  width: 100%;
+}
+.checkout-page-area .billing-details form label,
+.checkout-page-area .different-address form label {
+  font-weight: 600;
+  color: #000000 !important;
+}
+.checkout-page-area .billing-details form .form-control,
+.checkout-page-area .different-address form .form-control {
+  height: 40px;
+  border-radius: 3px;
+  margin: 10px 0;
+}
+.checkout-page-area .billing-details form .form-control.address-box,
+.checkout-page-area .different-address form .form-control.address-box {
+  height: auto !important;
+}
+.checkout-page-area .billing-details form .checkbox label,
+.checkout-page-area .different-address form .checkbox label {
+  padding-left: 27px;
+}
+.checkout-page-area .billing-details form .checkbox input[type="checkbox"],
+.checkout-page-area .different-address form .checkbox input[type="checkbox"] {
+  top: 5px;
+}
+.checkout-page-area .billing-details form .checkbox input[type="checkbox"]:after,
+.checkout-page-area .different-address form .checkbox input[type="checkbox"]:after {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: #00c3ff;
+  font-family: fontawesome;
+  color: #ffffff;
+  font-size: 10px;
+  text-align: center;
+  line-height: 20px;
+  content: "\f00c";
+}
+.checkout-page-area .table {
+  border: 1px solid #eeeeee;
+}
+.checkout-page-area .table thead {
+  background: #eeeeee;
+}
+.checkout-page-area .table thead tr th {
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  color: #000000 !important;
+  text-transform: uppercase;
+  padding: 30px 20px !important;
+}
+.checkout-page-area .table tbody tr td {
+  padding: 15px 15px !important;
+  vertical-align: middle;
+  color: #000000;
+  line-height: 35px;
+  font-weight: 600;
+}
+.checkout-page-area .table tbody tr td span {
+  color: #00c3ff;
+}
+.checkout-page-area .table tbody tr td i {
+  color: #777777 !important;
+}
+.checkout-page-area .table tbody tr td img {
+  display: inline-block;
+}
+.checkout-page-area .table tbody tr td a {
+  margin: 0 15px;
+  display: inline-block;
+  color: #000000;
+  transition: all 0.5s ease 0s;
+}
+.checkout-page-area .table tbody tr td a:hover {
+  color: #00c3ff;
+}
+.checkout-page-area .table tbody tr td i {
+  color: #00c3ff;
+}
+.checkout-page-area .transfer-sources {
+  padding: 0 15px;
+}
+.checkout-page-area .transfer-sources form .col-sm-12 {
+  border-bottom: 1px solid #eeeeee;
+  margin: 0;
+  padding: 15px 0;
+}
+.checkout-page-area .transfer-sources form .col-sm-12 img {
+  position: absolute;
+  top: -15px;
+  right: 0;
+}
+.checkout-page-area .transfer-sources form .col-sm-12:first-child,
+.checkout-page-area .transfer-sources form .col-sm-12:last-child {
+  border: none;
+}
+.checkout-page-area .transfer-sources form .radio-inline input[type="radio"] {
+  top: 5px;
+}
+.checkout-page-area .transfer-sources .info p {
+  background: #ededed;
+  padding: 10px;
+}
+.checkout-page-area .transfer-sources .update {
+  height: 50px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: none;
+  border: 1px solid #00c3ff;
+  transition: all 0.5s ease 0s;
+  padding: 15px 30px;
+  text-transform: uppercase;
+}
+.checkout-page-area .transfer-sources .update:hover {
+  background: #000;
+  color: #ffffff;
+  border: 1px solid #000;
+}
+/*--------------------  
+//30.account page area section
+--------------------*/
+.account-page-area {
+  padding: 100px 0;
+}
+.account-page-area .notice p {
+  padding: 10px;
+  background: #00c3ff;
+  border-radius: 3px;
+  color: #ffffff;
+}
+.account-page-area .notice p span {
+  color: #000;
+  margin-right: 10px;
+}
+.account-page-area .notice p i {
+  color: #ffffff;
+  margin-right: 10px;
+}
+.account-page-area .col-sm-12 {
+  margin: 0;
+}
+.account-page-area .col-sm-12 .account {
+  padding: 30px 0;
+  border-bottom: 1px solid #ecf0f1;
+}
+.account-page-area .col-sm-12 .account form {
+  margin-top: 60px;
+}
+.account-page-area .col-sm-12 .account form label {
+  font-weight: 600;
+  color: #000000 !important;
+}
+.account-page-area .col-sm-12 .account form .form-control {
+  height: 40px;
+  border-radius: 5px;
+  margin: 10px 0;
+  margin-bottom: 15px;
+}
+.account-page-area .col-sm-12 .account form .form-control.address-box {
+  height: auto !important;
+}
+.account-page-area .col-sm-12 .account form .checkbox label {
+  padding-left: 27px;
+}
+.account-page-area .col-sm-12 .account form .checkbox input[type="checkbox"] {
+  top: 5px;
+}
+.account-page-area .col-sm-12 .account form .checkbox input[type="checkbox"]:after {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: #00c3ff;
+  font-family: fontawesome;
+  color: #ffffff;
+  font-size: 10px;
+  text-align: center;
+  line-height: 20px;
+}
+.account-page-area .col-sm-12 .account form .checkbox input[type="checkbox"]:checked:after {
+  content: "\f00c";
+}
+.account-page-area .col-sm-12 .account form .update {
+  margin-top: 20px;
+  height: 50px;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: none;
+  border: 1px solid #000000;
+  transition: all 0.5s ease 0s;
+  background: #000;
+  font-weight: 800;
+  padding: 15px 30px;
+}
+.account-page-area .col-sm-12 .account form .update:hover {
+  background: #00c3ff;
+  color: #ffffff;
+  border: 1px solid #00c3ff;
+}
+.account-page-area .account-info {
+  padding: 30px 0 0;
+}
+.account-page-area .account-info ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.account-page-area .account-info ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.account-page-area .account-info ul li a {
+  color: #a1b1bc;
+  font-weight: 400;
+  transition: all 0.5s ease 0s;
+}
+.account-page-area .account-info ul li a:hover {
+  color: #00c3ff;
+}
+.account-page-area .account-info ul li a i {
+  margin-right: 10px;
+}

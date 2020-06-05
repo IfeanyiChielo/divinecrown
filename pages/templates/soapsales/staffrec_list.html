@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+<table class="table table-borderless">
+    <thead class="border-bottom font-weight-bold">
+        <td>
+            <a href="{% url 'staff/staffrec_insert' %}" class="btn btn-outline-success">
+                <i class="fas fa-plus"></i> Add New
+            </a>
+        </td>
+        <tr>
+            <td>staff id</td>
+            <td>staff Name</td>
+            <td>sex</td>
+            <td>Email</td>
+            <td>Address</td>
+            <td>mobile</td>
+            <td>Position</td>
+            <td>Department</td>
+    
+        </tr>
+    </thead>
+    <tbody>
+        
+        {% for staffrec in staffrec_list %}
+            <tr>
+                <td>{{staffrec.staff_id}}</td>
+                <td>{{staffrec.fullname}}</td>
+                <td>{{staffrec.sex}}</td>
+                <td>{{staffrec.email}}</td>
+                <td>{{staffrec.address}}</td>
+                <td>{{staffrec.mobile}}</td>
+                <td>{{staffrec.position}}</td>
+                <td>{{staffrec.department}}</td>
+                <td>  <a href="{% url 'staff/staffrec_update' staffrec.staff_id %}" class="btn text-secondary px-0">
+                        <i class="far fa-edit fa-lg"></i>
+                    </a></td>
+                <td>   <form action="{% url 'staff/staffrec_delete' staffrec.staff_id %}" method="post" class="d-inline">
+                        {% csrf_token %}
+                        <button type="submit" class="btn">
+                            <i class="far fa-trash-alt fa-lg text-danger float-right"></i>
+                        </button>
+                    </form></td>
+                </td>
+            </tr>
+        {% endfor %}        
+    </tbody>
+</table>
+<!-- <a href="{% url 'staff/staffrec_insert' %}" class="btn btn-outline-success">
+    <i class="fas fa-plus"></i> Add New
+</a> <br/> -->
+
+<!-- {% for staffrec in staffrec_list %}
+
+
+Staff Number:      {{staffrec.staff_id}} <br/>
+Staff Name:          {{staffrec.fullname}} <br/>
+Sex             {{staffrec.sex}} <br/>
+Email           {{staffrec.email}} <br/>
+Address         {{staffrec.address}} <br/>
+Phone Number:    {{staffrec.mobile}} <br/>
+Position        {{staffrec.position}} <br/>
+Department      {{staffrec.department}} <br/>
+      <a href="{% url 'staff/staffrec_update' staffrec.staff_id %}" class="btn text-secondary px-0">
+            <i class="far fa-edit fa-lg"></i>
+        </a>
+      <form action="{% url 'staff/staffrec_delete' staffrec.staff_id %}" method="post" class="d-inline">
+            {% csrf_token %}
+            <button type="submit" class="btn">
+                <i class="far fa-trash-alt fa-lg text-danger float-right"></i>
+            </button>
+        </form> <br/><br/><br/>
+{% endfor %}   -->
+{% endblock content %}
+
+

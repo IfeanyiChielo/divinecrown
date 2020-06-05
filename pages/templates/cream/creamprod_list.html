@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+<table class="table table-borderless">
+    <thead class="border-bottom font-weight-bold">
+        <td>
+            <a href="{% url 'creamprod_insert' %}" class="btn btn-outline-success">
+                <i class="fas fa-plus"></i> Add New
+            </a>
+        </td>
+        <tr>
+            <td>S/N</td>
+            <td>date</td>
+            <td>S_White_ExLM</td>
+            <td>S_White_Gold_SWM</td>
+            <td>Soft_Flower_LL</td>
+            <td>Soft_Flower_FC</td>
+           
+        </tr>
+    </thead>
+    <tbody>
+        
+        
+        {% for creamprod in creamprod_list %}
+            <tr>
+                <td>{{creamprod.id}}</td>
+                <td>{{creamprod.date}}</td>
+                <td>{{creamprod.Serial_White_ExLM}}</td>
+                <td>{{creamprod.Serial_White_Gold_SWM}}</td>
+                <td>{{creamprod.Soft_Flower_LL}}</td>
+                <td>{{creamprod.Soft_Flower_FC}}</td>
+               
+                <td>  <a href="{% url 'creamprod_update' creamprod.id %}" class="btn text-secondary px-0">
+                        <i class="far fa-edit fa-lg"></i>
+                    </a></td>
+                <td>   <form action="{% url 'creamprod_delete' creamprod.id %}" method="post" class="d-inline">
+                        {% csrf_token %}
+                        <button type="submit" class="btn">
+                            <i class="far fa-trash-alt fa-lg text-danger float-right"></i>
+                        </button>
+                    </form></td>
+                </td>
+            </tr>
+        {% endfor %}        
+    </tbody>
+</table>
+
+{% endblock content %}
